@@ -1,0 +1,328 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 10.1' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     10283,        319]
+NotebookOptionsPosition[      9659,        292]
+NotebookOutlinePosition[     10014,        308]
+CellTagsIndexPosition[      9971,        305]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell["Scaffold protein titration motif", "Title",
+ CellChangeTimes->{{3.6430002271357613`*^9, 3.6430002342704477`*^9}}],
+
+Cell[CellGroupData[{
+
+Cell["The model description", "Section",
+ CellChangeTimes->{{3.643000294588601*^9, 3.643000299851523*^9}}],
+
+Cell[TextData[{
+ "This particular motif describe one phosphorylation-desphosphorylation cycle \
+(can be generalized to any futile cycles) with both kinase ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", "K"}], TraditionalForm]]],
+ ") and phosphatase ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", "P"}], TraditionalForm]]],
+ ") can be titrated by a scaffold protein ",
+ Cell[BoxData[
+  FormBox[
+   RowBox[{"(", "T"}], TraditionalForm]]],
+ ").\n\n",
+ StyleBox["K + S \[Equilibrium] KS \[RightArrow] K + ", "DisplayFormula"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   SubscriptBox["S", "p"], TraditionalForm]], "DisplayFormula"], 
+  "DisplayFormula"],
+ StyleBox["\nP + ", "DisplayFormula"],
+ StyleBox[Cell[BoxData[
+  FormBox[
+   RowBox[{
+    SubscriptBox["S", "p"], " ", "\[Equilibrium]", " ", 
+    SubscriptBox["PS", "p"]}], TraditionalForm]], "DisplayFormula"], 
+  "DisplayFormula"],
+ StyleBox[" \[RightArrow] P + S\nT + K \[Equilibrium] TK\nT + P \
+\[Equilibrium] TP", "DisplayFormula"],
+ "\n\nThe above reactions show a simple system that composed of one scaffold \
+protein, one kinase, one phosphatase and one substrate. Here we try to \
+descibe this simple system with differential equation following the mass \
+action kinetics.\n\n",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[DifferentialD]", 
+        RowBox[{"[", "K", "]"}]}], 
+       RowBox[{"\[DifferentialD]", "t"}]], "=", 
+      RowBox[{
+       RowBox[{"-", 
+        RowBox[{
+         RowBox[{
+          SubscriptBox["k", "1"], "[", "K", "]"}], "[", "S", "]"}]}], "+", 
+       RowBox[{
+        SubscriptBox["k", "2"], "[", "KS", "]"}], "+", 
+       RowBox[{
+        SubscriptBox["k", "3"], "[", "KS", "]"}], "-", 
+       RowBox[{
+        RowBox[{
+         SubscriptBox["k", "7"], "[", "T", "]"}], "[", "K", "]"}], "+", 
+       RowBox[{
+        SubscriptBox["k", "8"], "[", "TK", "]"}]}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[DifferentialD]", 
+        RowBox[{"[", "P", "]"}]}], 
+       RowBox[{"\[DifferentialD]", "t"}]], "=", 
+      RowBox[{
+       RowBox[{"-", 
+        RowBox[{
+         RowBox[{
+          SubscriptBox["k", "4"], "[", "P", "]"}], "[", 
+         SubscriptBox["S", "p"], "]"}]}], "+", 
+       RowBox[{
+        SubscriptBox["k", "5"], "[", 
+        SubscriptBox["PS", "p"], "]"}], "+", 
+       RowBox[{
+        SubscriptBox["k", "6"], "[", 
+        SubscriptBox["PS", "p"], "]"}], "-", 
+       RowBox[{
+        RowBox[{
+         SubscriptBox["k", "9"], "[", "T", "]"}], "[", "P", "]"}], "+", 
+       RowBox[{
+        SubscriptBox["k", "10"], "[", "TP", "]"}]}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[DifferentialD]", 
+        RowBox[{"[", "S", "]"}]}], 
+       RowBox[{"\[DifferentialD]", "t"}]], "=", 
+      RowBox[{
+       RowBox[{"-", 
+        RowBox[{
+         RowBox[{
+          SubscriptBox["k", "1"], "[", "K", "]"}], "[", "S", "]"}]}], "+", 
+       RowBox[{
+        SubscriptBox["k", "2"], "[", "KS", "]"}], "+", 
+       RowBox[{
+        SubscriptBox["k", "6"], "[", 
+        SubscriptBox["PS", "p"], "]"}]}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[DifferentialD]", 
+        RowBox[{"[", 
+         SubscriptBox["S", "p"], "]"}]}], 
+       RowBox[{"\[DifferentialD]", "t"}]], "=", 
+      RowBox[{
+       RowBox[{"-", 
+        RowBox[{
+         RowBox[{
+          SubscriptBox["k", "4"], "[", "P", "]"}], "[", 
+         SubscriptBox["S", "p"], "]"}]}], "+", 
+       RowBox[{
+        SubscriptBox["k", "3"], "[", "KS", "]"}], "+", 
+       RowBox[{
+        SubscriptBox["k", "5"], "[", 
+        SubscriptBox["PS", "p"], "]"}]}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[DifferentialD]", 
+        RowBox[{"[", "KS", "]"}]}], 
+       RowBox[{"\[DifferentialD]", "t"}]], "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         SubscriptBox["k", "1"], "[", "K", "]"}], "[", "S", "]"}], "-", 
+       RowBox[{
+        SubscriptBox["k", "2"], "[", "KS", "]"}], "-", 
+       RowBox[{
+        SubscriptBox["k", "3"], "[", "KS", "]"}]}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[DifferentialD]", 
+        RowBox[{"[", 
+         SubscriptBox["PS", "p"], "]"}]}], 
+       RowBox[{"\[DifferentialD]", "t"}]], "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         SubscriptBox["k", "4"], "[", "P", "]"}], "[", 
+        SubscriptBox["S", "p"], "]"}], "-", 
+       RowBox[{
+        SubscriptBox["k", "5"], "[", 
+        SubscriptBox["PS", "p"], "]"}], "-", 
+       RowBox[{
+        SubscriptBox["k", "6"], "[", 
+        SubscriptBox["PS", "p"], "]"}]}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[DifferentialD]", 
+        RowBox[{"[", "T", "]"}]}], 
+       RowBox[{"\[DifferentialD]", "t"}]], "=", 
+      RowBox[{
+       RowBox[{"-", 
+        RowBox[{
+         RowBox[{
+          SubscriptBox["k", "7"], "[", "T", "]"}], "[", "K", "]"}]}], "+", 
+       RowBox[{
+        SubscriptBox["k", "8"], "[", "TK", "]"}], "-", 
+       RowBox[{
+        RowBox[{
+         SubscriptBox["k", "9"], "[", "T", "]"}], "[", "P", "]"}], "+", 
+       RowBox[{
+        SubscriptBox["k", "10"], "[", "TP", "]"}]}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[DifferentialD]", 
+        RowBox[{"[", "TK", "]"}]}], 
+       RowBox[{"\[DifferentialD]", "t"}]], "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         SubscriptBox["k", "7"], "[", "T", "]"}], "[", "K", "]"}], "-", 
+       RowBox[{
+        SubscriptBox["k", "8"], "[", "TK", "]"}]}]}], ",", 
+     "\[IndentingNewLine]", 
+     RowBox[{
+      FractionBox[
+       RowBox[{"\[DifferentialD]", 
+        RowBox[{"[", "TP", "]"}]}], 
+       RowBox[{"\[DifferentialD]", "t"}]], "=", 
+      RowBox[{
+       RowBox[{
+        RowBox[{
+         SubscriptBox["k", "9"], "[", "T", "]"}], "[", "P", "]"}], "-", 
+       RowBox[{
+        RowBox[{
+         SubscriptBox["k", "10"], "[", "TP", "]"}], "."}]}]}]}], 
+    "DisplayFormula"], TraditionalForm]]],
+ "\n\nAnd the system need to follow these conservation equations:\n\n",
+ Cell[BoxData[
+  FormBox[
+   StyleBox[
+    RowBox[{
+     RowBox[{
+      RowBox[{
+       RowBox[{"[", "K", "]"}], "+", 
+       RowBox[{"[", "KS", "]"}], "+", 
+       RowBox[{"[", "TK", "]"}]}], "=", 
+      RowBox[{"[", 
+       SubscriptBox["K", "tot"], "]"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"[", "P", "]"}], "+", 
+       RowBox[{"[", 
+        SubscriptBox["PS", "p"], "]"}], "+", 
+       RowBox[{"[", "TP", "]"}]}], "=", 
+      RowBox[{"[", 
+       SubscriptBox["P", "tot"], "]"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"[", "S", "]"}], "+", 
+       RowBox[{"[", 
+        SubscriptBox["S", "p"], "]"}], "+", 
+       RowBox[{"[", "KS", "]"}], "+", 
+       RowBox[{"[", 
+        SubscriptBox["PS", "p"], "]"}]}], "=", 
+      RowBox[{"[", 
+       SubscriptBox["S", "tot"], "]"}]}], ",", "\[IndentingNewLine]", 
+     RowBox[{
+      RowBox[{
+       RowBox[{"[", "T", "]"}], "+", 
+       RowBox[{"[", "TK", "]"}], "+", 
+       RowBox[{"[", "TP", "]"}]}], "=", 
+      RowBox[{
+       RowBox[{"[", 
+        SubscriptBox["T", "tot"], "]"}], "."}]}]}], "DisplayFormula"], 
+   TraditionalForm]]],
+ "\n\nIn the following setion, we will solve the differential equations to \
+understand the dynamics and behaviour of such system."
+}], "Text",
+ CellChangeTimes->{{3.64300032946461*^9, 3.643000411949408*^9}, 
+   3.643000765009842*^9, {3.643000801521837*^9, 3.643000819809833*^9}, {
+   3.6430008671825657`*^9, 3.643000900906423*^9}, {3.6430009876621447`*^9, 
+   3.643001018130637*^9}, {3.643001148803453*^9, 3.643001408094447*^9}, {
+   3.643001469379396*^9, 3.64300206984488*^9}, {3.643002302021605*^9, 
+   3.64300248368265*^9}, {3.6430028896311207`*^9, 3.643002995076975*^9}, {
+   3.643008434602817*^9, 3.6430084533503437`*^9}, {3.643008493769312*^9, 
+   3.64300854988597*^9}}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Understanding the dynamics of this simple system", "Section",
+ CellChangeTimes->{{3.643008555381485*^9, 3.643008583516593*^9}}],
+
+Cell["The species are:", "Text",
+ CellChangeTimes->{{3.643008589316565*^9, 3.643008598380373*^9}, {
+  3.643008653866585*^9, 3.643008686730983*^9}}],
+
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{"K", ",", "P", ",", "S", ",", 
+   SubscriptBox["S", "p"], ",", "KS", ",", 
+   SubscriptBox["PS", "p"], ",", "T", ",", "TK", ",", "TP"}], 
+  "}"}]], "DisplayFormula",
+ CellChangeTimes->{{3.643008711850252*^9, 3.64300877181549*^9}}],
+
+Cell["Here we have the differential equations:", "Text",
+ CellChangeTimes->{{3.643008691634817*^9, 3.6430086930249767`*^9}}],
+
+Cell[BoxData[""], "Input"]
+}, Open  ]]
+}, Open  ]]
+},
+WindowSize->{1202, 975},
+WindowMargins->{{Automatic, 32}, {Automatic, 0}},
+FrontEndVersion->"10.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 23, \
+2015)",
+StyleDefinitions->"Default.nb"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 119, 1, 92, "Title"],
+Cell[CellGroupData[{
+Cell[724, 27, 106, 1, 64, "Section"],
+Cell[833, 30, 8050, 235, 811, "Text"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[8920, 270, 133, 1, 64, "Section"],
+Cell[9056, 273, 147, 2, 30, "Text"],
+Cell[9206, 277, 269, 6, 26, "DisplayFormula"],
+Cell[9478, 285, 124, 1, 30, "Text"],
+Cell[9605, 288, 26, 0, 28, "Input"]
+}, Open  ]]
+}, Open  ]]
+}
+]
+*)
+
+(* End of internal cache information *)

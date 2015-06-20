@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    136987,       3662]
-NotebookOptionsPosition[    133882,       3557]
-NotebookOutlinePosition[    134237,       3573]
-CellTagsIndexPosition[    134194,       3570]
+NotebookDataLength[    260271,       6584]
+NotebookOptionsPosition[    256907,       6471]
+NotebookOutlinePosition[    257262,       6487]
+CellTagsIndexPosition[    257219,       6484]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1386,6 +1386,164 @@ Cell[BoxData[
  CellChangeTimes->{3.6437301904351683`*^9}]
 }, Open  ]],
 
+Cell[BoxData[
+ RowBox[{"t32", "=", 
+  RowBox[{"{", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"km", "[", "2", "]"}], "+", 
+       RowBox[{"x", "[", "4", "]"}], "+", 
+       RowBox[{
+        RowBox[{"kd", "[", "2", "]"}], " ", 
+        RowBox[{"km", "[", "2", "]"}], " ", 
+        RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{"km", "[", "2", "]"}], "+", 
+       RowBox[{"x", "[", "4", "]"}], "+", 
+       RowBox[{
+        RowBox[{"kd", "[", "2", "]"}], " ", 
+        RowBox[{"km", "[", "2", "]"}], " ", 
+        RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+     RowBox[{"(", 
+      RowBox[{
+       RowBox[{
+        RowBox[{"-", 
+         RowBox[{"km", "[", "2", "]"}]}], " ", 
+        RowBox[{"T", "[", "1", "]"}]}], "-", 
+       RowBox[{
+        RowBox[{"T", "[", "1", "]"}], " ", 
+        RowBox[{"x", "[", "4", "]"}]}], "+", 
+       RowBox[{"kcr", " ", 
+        RowBox[{"T", "[", "2", "]"}], " ", 
+        RowBox[{"x", "[", "4", "]"}]}], "-", 
+       RowBox[{
+        RowBox[{"kd", "[", "2", "]"}], " ", 
+        RowBox[{"km", "[", "2", "]"}], " ", 
+        RowBox[{"T", "[", "1", "]"}], " ", 
+        RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+     RowBox[{"T", "[", "3", "]"}]}], "\[Equal]", 
+    RowBox[{
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          RowBox[{"km", "[", "2", "]"}]}], " ", 
+         RowBox[{"T", "[", "1", "]"}]}], "-", 
+        RowBox[{
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"kcr", " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"km", "[", "2", "]"}], "+", 
+        RowBox[{"x", "[", "4", "]"}], "+", 
+        RowBox[{
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"km", "[", "2", "]"}], "+", 
+        RowBox[{"x", "[", "4", "]"}], "+", 
+        RowBox[{
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+      RowBox[{"x", "[", "4", "]"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          RowBox[{"km", "[", "2", "]"}]}], " ", 
+         RowBox[{"T", "[", "1", "]"}]}], "-", 
+        RowBox[{
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"kcr", " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"km", "[", "2", "]"}], "+", 
+        RowBox[{"x", "[", "4", "]"}], "+", 
+        RowBox[{
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+      RowBox[{"T", "[", "2", "]"}], " ", 
+      RowBox[{"x", "[", "4", "]"}]}], "+", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{
+         RowBox[{"-", 
+          RowBox[{"km", "[", "2", "]"}]}], " ", 
+         RowBox[{"T", "[", "1", "]"}]}], "-", 
+        RowBox[{
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"kcr", " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"km", "[", "2", "]"}], "+", 
+        RowBox[{"x", "[", "4", "]"}], "+", 
+        RowBox[{
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", "kcr", " ", 
+      RowBox[{"T", "[", "2", "]"}], " ", 
+      RowBox[{"x", "[", "4", "]"}]}], "-", 
+     RowBox[{
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"km", "[", "2", "]"}], "+", 
+        RowBox[{"x", "[", "4", "]"}], "+", 
+        RowBox[{
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", 
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"km", "[", "2", "]"}], "+", 
+        RowBox[{"x", "[", "4", "]"}], "+", 
+        RowBox[{
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}], "*", "kcr", " ", 
+      RowBox[{"km", "[", "1", "]"}], " ", 
+      RowBox[{"T", "[", "2", "]"}], " ", 
+      RowBox[{"x", "[", "4", "]"}], " ", 
+      RowBox[{"(", 
+       RowBox[{"1", "+", 
+        RowBox[{
+         RowBox[{"kd", "[", "1", "]"}], " ", 
+         RowBox[{"x", "[", "7", "]"}]}]}], ")"}]}]}]}], "}"}]}]], "Input",
+ CellChangeTimes->{{3.643743273203521*^9, 3.643743438651905*^9}}],
+
 Cell[CellGroupData[{
 
 Cell[BoxData[
@@ -1471,21 +1629,2843 @@ Cell[BoxData[
 Cell[CellGroupData[{
 
 Cell[BoxData[
- RowBox[{"Solve", "[", 
+ RowBox[{"t4Sol", "=", 
   RowBox[{
-   RowBox[{"Join", "[", 
-    RowBox[{"t3", ",", "t4"}], "]"}], ",", 
-   RowBox[{"{", 
-    RowBox[{
-     RowBox[{"x", "[", "4", "]"}], ",", 
-     RowBox[{"x", "[", "7", "]"}]}], "}"}]}], "]"}]], "Input",
- CellChangeTimes->{{3.643730022845932*^9, 3.643730037614408*^9}, {
-  3.643730208633479*^9, 3.643730257895173*^9}}],
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"Solve", "[", 
+      RowBox[{"t4", ",", 
+       RowBox[{"x", "[", "7", "]"}]}], "]"}], "}"}], "[", 
+    RowBox[{"[", "1", "]"}], "]"}], "[", 
+   RowBox[{"[", "1", "]"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.643731562720862*^9, 3.643731571843151*^9}, {
+  3.643731630842449*^9, 3.64373165572816*^9}, {3.643732268453081*^9, 
+  3.643732272770039*^9}}],
 
 Cell[BoxData[
- RowBox[{"{", "}"}]], "Output",
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"x", "[", "7", "]"}], "\[Rule]", 
+   RowBox[{
+    FractionBox[
+     RowBox[{
+      RowBox[{
+       RowBox[{"-", 
+        RowBox[{"kd", "[", "1", "]"}]}], " ", 
+       RowBox[{"km", "[", "2", "]"}]}], "-", 
+      RowBox[{
+       RowBox[{"kd", "[", "2", "]"}], " ", 
+       RowBox[{"km", "[", "2", "]"}]}], "-", 
+      RowBox[{
+       RowBox[{"kd", "[", "1", "]"}], " ", 
+       RowBox[{"kd", "[", "2", "]"}], " ", 
+       RowBox[{"km", "[", "2", "]"}], " ", 
+       RowBox[{"T", "[", "1", "]"}]}], "-", 
+      RowBox[{
+       RowBox[{"kd", "[", "1", "]"}], " ", 
+       RowBox[{"kd", "[", "2", "]"}], " ", 
+       RowBox[{"km", "[", "2", "]"}], " ", 
+       RowBox[{"T", "[", "2", "]"}]}], "+", 
+      RowBox[{
+       RowBox[{"kd", "[", "1", "]"}], " ", 
+       RowBox[{"kd", "[", "2", "]"}], " ", 
+       RowBox[{"km", "[", "2", "]"}], " ", 
+       RowBox[{"T", "[", "4", "]"}]}], "-", 
+      RowBox[{
+       RowBox[{"kd", "[", "1", "]"}], " ", 
+       RowBox[{"x", "[", "4", "]"}]}]}], 
+     RowBox[{"3", " ", 
+      RowBox[{"kd", "[", "1", "]"}], " ", 
+      RowBox[{"kd", "[", "2", "]"}], " ", 
+      RowBox[{"km", "[", "2", "]"}]}]], "+", 
+    RowBox[{
+     RowBox[{"(", 
+      RowBox[{
+       SuperscriptBox["2", 
+        RowBox[{"1", "/", "3"}]], " ", 
+       RowBox[{"(", 
+        RowBox[{
+         RowBox[{"-", 
+          SuperscriptBox[
+           RowBox[{"(", 
+            RowBox[{
+             RowBox[{
+              RowBox[{"-", 
+               RowBox[{"kd", "[", "1", "]"}]}], " ", 
+              RowBox[{"km", "[", "2", "]"}]}], "-", 
+             RowBox[{
+              RowBox[{"kd", "[", "2", "]"}], " ", 
+              RowBox[{"km", "[", "2", "]"}]}], "-", 
+             RowBox[{
+              RowBox[{"kd", "[", "1", "]"}], " ", 
+              RowBox[{"kd", "[", "2", "]"}], " ", 
+              RowBox[{"km", "[", "2", "]"}], " ", 
+              RowBox[{"T", "[", "1", "]"}]}], "-", 
+             RowBox[{
+              RowBox[{"kd", "[", "1", "]"}], " ", 
+              RowBox[{"kd", "[", "2", "]"}], " ", 
+              RowBox[{"km", "[", "2", "]"}], " ", 
+              RowBox[{"T", "[", "2", "]"}]}], "+", 
+             RowBox[{
+              RowBox[{"kd", "[", "1", "]"}], " ", 
+              RowBox[{"kd", "[", "2", "]"}], " ", 
+              RowBox[{"km", "[", "2", "]"}], " ", 
+              RowBox[{"T", "[", "4", "]"}]}], "-", 
+             RowBox[{
+              RowBox[{"kd", "[", "1", "]"}], " ", 
+              RowBox[{"x", "[", "4", "]"}]}]}], ")"}], "2"]}], "-", 
+         RowBox[{"3", " ", 
+          RowBox[{"kd", "[", "1", "]"}], " ", 
+          RowBox[{"kd", "[", "2", "]"}], " ", 
+          RowBox[{"km", "[", "2", "]"}], " ", 
+          RowBox[{"(", 
+           RowBox[{
+            RowBox[{"-", 
+             RowBox[{"km", "[", "2", "]"}]}], "-", 
+            RowBox[{
+             RowBox[{"kd", "[", "1", "]"}], " ", 
+             RowBox[{"km", "[", "2", "]"}], " ", 
+             RowBox[{"T", "[", "1", "]"}]}], "-", 
+            RowBox[{
+             RowBox[{"kd", "[", "2", "]"}], " ", 
+             RowBox[{"km", "[", "2", "]"}], " ", 
+             RowBox[{"T", "[", "2", "]"}]}], "+", 
+            RowBox[{
+             RowBox[{"kd", "[", "1", "]"}], " ", 
+             RowBox[{"km", "[", "2", "]"}], " ", 
+             RowBox[{"T", "[", "4", "]"}]}], "+", 
+            RowBox[{
+             RowBox[{"kd", "[", "2", "]"}], " ", 
+             RowBox[{"km", "[", "2", "]"}], " ", 
+             RowBox[{"T", "[", "4", "]"}]}], "-", 
+            RowBox[{"x", "[", "4", "]"}], "-", 
+            RowBox[{
+             RowBox[{"kd", "[", "1", "]"}], " ", 
+             RowBox[{"T", "[", "1", "]"}], " ", 
+             RowBox[{"x", "[", "4", "]"}]}], "+", 
+            RowBox[{"kcr", " ", 
+             RowBox[{"kd", "[", "1", "]"}], " ", 
+             RowBox[{"T", "[", "2", "]"}], " ", 
+             RowBox[{"x", "[", "4", "]"}]}], "+", 
+            RowBox[{
+             RowBox[{"kd", "[", "1", "]"}], " ", 
+             RowBox[{"T", "[", "4", "]"}], " ", 
+             RowBox[{"x", "[", "4", "]"}]}]}], ")"}]}]}], ")"}]}], ")"}], "/", 
+     RowBox[{"(", 
+      RowBox[{"3", " ", 
+       RowBox[{"kd", "[", "1", "]"}], " ", 
+       RowBox[{"kd", "[", "2", "]"}], " ", 
+       RowBox[{"km", "[", "2", "]"}], " ", 
+       SuperscriptBox[
+        RowBox[{"(", 
+         RowBox[{
+          RowBox[{"2", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+          RowBox[{"3", " ", 
+           RowBox[{"kd", "[", "1", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"]}], "+", 
+          RowBox[{"2", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}]}], "-", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}]}], "+", 
+          RowBox[{"6", " ", 
+           RowBox[{"kd", "[", "1", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "1", "]"}], "2"]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "1", "]"}], "2"]}], "+", 
+          RowBox[{"2", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "1", "]"}], "3"]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "2", "]"}]}], "-", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "2", "]"}]}], "-", 
+          RowBox[{"3", " ", 
+           RowBox[{"kd", "[", "1", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "2", "]"}]}], "+", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"T", "[", "2", "]"}]}], "+", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"T", "[", "2", "]"}]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "2", "]"}]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "2", "]"}], "2"]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "2", "]"}], "2"]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "2", "]"}], "2"]}], "+", 
+          RowBox[{"2", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "2", "]"}], "3"]}], "+", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "-", 
+          RowBox[{"12", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "+", 
+          RowBox[{"3", " ", 
+           RowBox[{"kd", "[", "1", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "-", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "-", 
+          RowBox[{"12", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "-", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "4", "]"}]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "4", "]"}], "2"]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "4", "]"}], "2"]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "4", "]"}], "2"]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "4", "]"}], "2"]}], "-", 
+          RowBox[{"2", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "4", "]"}], "3"]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"3", " ", 
+           RowBox[{"kd", "[", "1", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"12", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"9", " ", "kcr", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"9", " ", "kcr", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"9", " ", "kcr", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"9", " ", "kcr", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "4", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"12", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "4", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           RowBox[{"T", "[", "4", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"T", "[", "4", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"9", " ", "kcr", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           RowBox[{"T", "[", "4", "]"}], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+           SuperscriptBox[
+            RowBox[{"T", "[", "4", "]"}], "2"], " ", 
+           RowBox[{"x", "[", "4", "]"}]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"km", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"x", "[", "4", "]"}], "2"]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           RowBox[{"km", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"x", "[", "4", "]"}], "2"]}], "-", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           RowBox[{"km", "[", "2", "]"}], " ", 
+           RowBox[{"T", "[", "1", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+          RowBox[{"6", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           RowBox[{"km", "[", "2", "]"}], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+          RowBox[{"9", " ", "kcr", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           RowBox[{"km", "[", "2", "]"}], " ", 
+           RowBox[{"T", "[", "2", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+          RowBox[{"3", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           RowBox[{"kd", "[", "2", "]"}], " ", 
+           RowBox[{"km", "[", "2", "]"}], " ", 
+           RowBox[{"T", "[", "4", "]"}], " ", 
+           SuperscriptBox[
+            RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+          RowBox[{"2", " ", 
+           SuperscriptBox[
+            RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+           SuperscriptBox[
+            RowBox[{"x", "[", "4", "]"}], "3"]}], "+", 
+          RowBox[{"\[Sqrt]", 
+           RowBox[{"(", 
+            RowBox[{
+             SuperscriptBox[
+              RowBox[{"(", 
+               RowBox[{
+                RowBox[{"2", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+                RowBox[{"3", " ", 
+                 RowBox[{"kd", "[", "1", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"]}], "+", 
+                RowBox[{"2", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}]}], "-", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}]}], "+", 
+                RowBox[{"6", " ", 
+                 RowBox[{"kd", "[", "1", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "1", "]"}], "2"]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "1", "]"}], "2"]}], "+", 
+                RowBox[{"2", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "1", "]"}], "3"]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "2", "]"}]}], "-", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "2", "]"}]}], "-", 
+                RowBox[{"3", " ", 
+                 RowBox[{"kd", "[", "1", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "2", "]"}]}], "+", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"T", "[", "2", "]"}]}], "+", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"T", "[", "2", "]"}]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "2", "]"}]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "2", "]"}], "2"]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "2", "]"}], "2"]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "2", "]"}], "2"]}], "+", 
+                RowBox[{"2", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "2", "]"}], "3"]}], "+", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "-", 
+                RowBox[{"12", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "+", 
+                RowBox[{"3", " ", 
+                 RowBox[{"kd", "[", "1", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "-", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "-", 
+                RowBox[{"12", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "-", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "4", "]"}]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "4", "]"}], "2"]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "4", "]"}], "2"]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "4", "]"}], "2"]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "4", "]"}], "2"]}], "-", 
+                RowBox[{"2", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "4", "]"}], "3"]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"3", " ", 
+                 RowBox[{"kd", "[", "1", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"12", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"9", " ", "kcr", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"9", " ", "kcr", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"9", " ", "kcr", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"9", " ", "kcr", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "4", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"12", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "4", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 RowBox[{"T", "[", "4", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"T", "[", "4", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"9", " ", "kcr", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 RowBox[{"T", "[", "4", "]"}], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"T", "[", "4", "]"}], "2"], " ", 
+                 RowBox[{"x", "[", "4", "]"}]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"km", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"x", "[", "4", "]"}], "2"]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 RowBox[{"km", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"x", "[", "4", "]"}], "2"]}], "-", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 RowBox[{"km", "[", "2", "]"}], " ", 
+                 RowBox[{"T", "[", "1", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+                RowBox[{"6", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 RowBox[{"km", "[", "2", "]"}], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+                RowBox[{"9", " ", "kcr", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 RowBox[{"km", "[", "2", "]"}], " ", 
+                 RowBox[{"T", "[", "2", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+                RowBox[{"3", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 RowBox[{"kd", "[", "2", "]"}], " ", 
+                 RowBox[{"km", "[", "2", "]"}], " ", 
+                 RowBox[{"T", "[", "4", "]"}], " ", 
+                 SuperscriptBox[
+                  RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+                RowBox[{"2", " ", 
+                 SuperscriptBox[
+                  RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+                 SuperscriptBox[
+                  RowBox[{"x", "[", "4", "]"}], "3"]}]}], ")"}], "2"], "+", 
+             RowBox[{"4", " ", 
+              SuperscriptBox[
+               RowBox[{"(", 
+                RowBox[{
+                 RowBox[{"-", 
+                  SuperscriptBox[
+                   RowBox[{"(", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"-", 
+                    RowBox[{"kd", "[", "1", "]"}]}], " ", 
+                    RowBox[{"km", "[", "2", "]"}]}], "-", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}]}], "-", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "1", "]"}]}], "-", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "2", "]"}]}], "+", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "4", "]"}]}], "-", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"x", "[", "4", "]"}]}]}], ")"}], "2"]}], "-", 
+                 RowBox[{"3", " ", 
+                  RowBox[{"kd", "[", "1", "]"}], " ", 
+                  RowBox[{"kd", "[", "2", "]"}], " ", 
+                  RowBox[{"km", "[", "2", "]"}], " ", 
+                  RowBox[{"(", 
+                   RowBox[{
+                    RowBox[{"-", 
+                    RowBox[{"km", "[", "2", "]"}]}], "-", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "1", "]"}]}], "-", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "2", "]"}]}], "+", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "4", "]"}]}], "+", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "4", "]"}]}], "-", 
+                    RowBox[{"x", "[", "4", "]"}], "-", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"T", "[", "1", "]"}], " ", 
+                    RowBox[{"x", "[", "4", "]"}]}], "+", 
+                    RowBox[{"kcr", " ", 
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"T", "[", "2", "]"}], " ", 
+                    RowBox[{"x", "[", "4", "]"}]}], "+", 
+                    RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"T", "[", "4", "]"}], " ", 
+                    RowBox[{"x", "[", "4", "]"}]}]}], ")"}]}]}], ")"}], 
+               "3"]}]}], ")"}]}]}], ")"}], 
+        RowBox[{"1", "/", "3"}]]}], ")"}]}], "-", 
+    RowBox[{
+     FractionBox["1", 
+      RowBox[{"3", " ", 
+       SuperscriptBox["2", 
+        RowBox[{"1", "/", "3"}]], " ", 
+       RowBox[{"kd", "[", "1", "]"}], " ", 
+       RowBox[{"kd", "[", "2", "]"}], " ", 
+       RowBox[{"km", "[", "2", "]"}]}]], 
+     SuperscriptBox[
+      RowBox[{"(", 
+       RowBox[{
+        RowBox[{"2", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+        RowBox[{"3", " ", 
+         RowBox[{"kd", "[", "1", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"]}], "+", 
+        RowBox[{"2", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}]}], "-", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}]}], "+", 
+        RowBox[{"6", " ", 
+         RowBox[{"kd", "[", "1", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "1", "]"}], "2"]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "1", "]"}], "2"]}], "+", 
+        RowBox[{"2", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "1", "]"}], "3"]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "2", "]"}]}], "-", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "2", "]"}]}], "-", 
+        RowBox[{"3", " ", 
+         RowBox[{"kd", "[", "1", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "2", "]"}]}], "+", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"T", "[", "2", "]"}]}], "+", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"T", "[", "2", "]"}]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "2", "]"}]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "2", "]"}], "2"]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "2", "]"}], "2"]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "2", "]"}], "2"]}], "+", 
+        RowBox[{"2", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "2", "]"}], "3"]}], "+", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "-", 
+        RowBox[{"12", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "+", 
+        RowBox[{"3", " ", 
+         RowBox[{"kd", "[", "1", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "-", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "-", 
+        RowBox[{"12", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "-", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "4", "]"}]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "4", "]"}], "2"]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "4", "]"}], "2"]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "4", "]"}], "2"]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "4", "]"}], "2"]}], "-", 
+        RowBox[{"2", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "4", "]"}], "3"]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"3", " ", 
+         RowBox[{"kd", "[", "1", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"12", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"9", " ", "kcr", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"9", " ", "kcr", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"9", " ", "kcr", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"9", " ", "kcr", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "4", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"12", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "4", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         RowBox[{"T", "[", "4", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "4", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"9", " ", "kcr", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "4", "]"}], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+         SuperscriptBox[
+          RowBox[{"T", "[", "4", "]"}], "2"], " ", 
+         RowBox[{"x", "[", "4", "]"}]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"x", "[", "4", "]"}], "2"]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"x", "[", "4", "]"}], "2"]}], "-", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "1", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+        RowBox[{"6", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+        RowBox[{"9", " ", "kcr", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "2", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+        RowBox[{"3", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         RowBox[{"kd", "[", "2", "]"}], " ", 
+         RowBox[{"km", "[", "2", "]"}], " ", 
+         RowBox[{"T", "[", "4", "]"}], " ", 
+         SuperscriptBox[
+          RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+        RowBox[{"2", " ", 
+         SuperscriptBox[
+          RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+         SuperscriptBox[
+          RowBox[{"x", "[", "4", "]"}], "3"]}], "+", 
+        RowBox[{"\[Sqrt]", 
+         RowBox[{"(", 
+          RowBox[{
+           SuperscriptBox[
+            RowBox[{"(", 
+             RowBox[{
+              RowBox[{"2", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+              RowBox[{"3", " ", 
+               RowBox[{"kd", "[", "1", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"]}], "+", 
+              RowBox[{"2", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}]}], "-", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}]}], "+", 
+              RowBox[{"6", " ", 
+               RowBox[{"kd", "[", "1", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "1", "]"}], "2"]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "1", "]"}], "2"]}], "+", 
+              RowBox[{"2", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "1", "]"}], "3"]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "2", "]"}]}], "-", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "2", "]"}]}], "-", 
+              RowBox[{"3", " ", 
+               RowBox[{"kd", "[", "1", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "2", "]"}]}], "+", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"T", "[", "2", "]"}]}], "+", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"T", "[", "2", "]"}]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "2", "]"}]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "2", "]"}], "2"]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "2", "]"}], "2"]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "2", "]"}], "2"]}], "+", 
+              RowBox[{"2", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "2", "]"}], "3"]}], "+", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "-", 
+              RowBox[{"12", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "+", 
+              RowBox[{"3", " ", 
+               RowBox[{"kd", "[", "1", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "-", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "-", 
+              RowBox[{"12", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "-", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "4", "]"}]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "4", "]"}], "2"]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "4", "]"}], "2"]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "4", "]"}], "2"]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "4", "]"}], "2"]}], "-", 
+              RowBox[{"2", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "4", "]"}], "3"]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"3", " ", 
+               RowBox[{"kd", "[", "1", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "1", "]"}], "2"], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"12", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"9", " ", "kcr", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"9", " ", "kcr", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"9", " ", "kcr", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"9", " ", "kcr", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "4", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"12", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "4", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               RowBox[{"T", "[", "4", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"T", "[", "4", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"9", " ", "kcr", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               RowBox[{"T", "[", "4", "]"}], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"km", "[", "2", "]"}], "2"], " ", 
+               SuperscriptBox[
+                RowBox[{"T", "[", "4", "]"}], "2"], " ", 
+               RowBox[{"x", "[", "4", "]"}]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"km", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"x", "[", "4", "]"}], "2"]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "2"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               RowBox[{"km", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"x", "[", "4", "]"}], "2"]}], "-", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               RowBox[{"km", "[", "2", "]"}], " ", 
+               RowBox[{"T", "[", "1", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+              RowBox[{"6", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               RowBox[{"km", "[", "2", "]"}], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+              RowBox[{"9", " ", "kcr", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               RowBox[{"km", "[", "2", "]"}], " ", 
+               RowBox[{"T", "[", "2", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+              RowBox[{"3", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               RowBox[{"km", "[", "2", "]"}], " ", 
+               RowBox[{"T", "[", "4", "]"}], " ", 
+               SuperscriptBox[
+                RowBox[{"x", "[", "4", "]"}], "2"]}], "+", 
+              RowBox[{"2", " ", 
+               SuperscriptBox[
+                RowBox[{"kd", "[", "1", "]"}], "3"], " ", 
+               SuperscriptBox[
+                RowBox[{"x", "[", "4", "]"}], "3"]}]}], ")"}], "2"], "+", 
+           RowBox[{"4", " ", 
+            SuperscriptBox[
+             RowBox[{"(", 
+              RowBox[{
+               RowBox[{"-", 
+                SuperscriptBox[
+                 RowBox[{"(", 
+                  RowBox[{
+                   RowBox[{
+                    RowBox[{"-", 
+                    RowBox[{"kd", "[", "1", "]"}]}], " ", 
+                    RowBox[{"km", "[", "2", "]"}]}], "-", 
+                   RowBox[{
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}]}], "-", 
+                   RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "1", "]"}]}], "-", 
+                   RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "2", "]"}]}], "+", 
+                   RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}], " ", 
+                    RowBox[{"T", "[", "4", "]"}]}], "-", 
+                   RowBox[{
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"x", "[", "4", "]"}]}]}], ")"}], "2"]}], "-", 
+               RowBox[{"3", " ", 
+                RowBox[{"kd", "[", "1", "]"}], " ", 
+                RowBox[{"kd", "[", "2", "]"}], " ", 
+                RowBox[{"km", "[", "2", "]"}], " ", 
+                RowBox[{"(", 
+                 RowBox[{
+                  RowBox[{"-", 
+                   RowBox[{"km", "[", "2", "]"}]}], "-", 
+                  RowBox[{
+                   RowBox[{"kd", "[", "1", "]"}], " ", 
+                   RowBox[{"km", "[", "2", "]"}], " ", 
+                   RowBox[{"T", "[", "1", "]"}]}], "-", 
+                  RowBox[{
+                   RowBox[{"kd", "[", "2", "]"}], " ", 
+                   RowBox[{"km", "[", "2", "]"}], " ", 
+                   RowBox[{"T", "[", "2", "]"}]}], "+", 
+                  RowBox[{
+                   RowBox[{"kd", "[", "1", "]"}], " ", 
+                   RowBox[{"km", "[", "2", "]"}], " ", 
+                   RowBox[{"T", "[", "4", "]"}]}], "+", 
+                  RowBox[{
+                   RowBox[{"kd", "[", "2", "]"}], " ", 
+                   RowBox[{"km", "[", "2", "]"}], " ", 
+                   RowBox[{"T", "[", "4", "]"}]}], "-", 
+                  RowBox[{"x", "[", "4", "]"}], "-", 
+                  RowBox[{
+                   RowBox[{"kd", "[", "1", "]"}], " ", 
+                   RowBox[{"T", "[", "1", "]"}], " ", 
+                   RowBox[{"x", "[", "4", "]"}]}], "+", 
+                  RowBox[{"kcr", " ", 
+                   RowBox[{"kd", "[", "1", "]"}], " ", 
+                   RowBox[{"T", "[", "2", "]"}], " ", 
+                   RowBox[{"x", "[", "4", "]"}]}], "+", 
+                  RowBox[{
+                   RowBox[{"kd", "[", "1", "]"}], " ", 
+                   RowBox[{"T", "[", "4", "]"}], " ", 
+                   RowBox[{"x", "[", "4", "]"}]}]}], ")"}]}]}], ")"}], 
+             "3"]}]}], ")"}]}]}], ")"}], 
+      RowBox[{"1", "/", "3"}]]}]}]}], "}"}]], "Output",
  CellChangeTimes->{
-  3.6437300458854103`*^9, {3.643730223137753*^9, 3.643730253111498*^9}}]
+  3.643731573627398*^9, {3.6437316379359503`*^9, 3.643731656951928*^9}, 
+   3.6437322742290297`*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"t3", "/.", "t4Sol"}]], "Input"],
+
+Cell[BoxData[
+ InterpretationBox[
+  TagBox[
+   FrameBox[GridBox[{
+      {
+       ItemBox[
+        TagBox[
+         RowBox[{"{", 
+          RowBox[{
+           RowBox[{"T", "[", "3", "]"}], "\[Equal]", 
+           RowBox[{
+            RowBox[{"x", "[", "4", "]"}], "+", 
+            FractionBox[
+             RowBox[{
+              RowBox[{"T", "[", "2", "]"}], " ", 
+              RowBox[{"x", "[", "4", "]"}]}], 
+             RowBox[{
+              RowBox[{"km", "[", "2", "]"}], "+", 
+              RowBox[{"x", "[", "4", "]"}], "+", 
+              RowBox[{
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               RowBox[{"km", "[", "2", "]"}], " ", 
+               RowBox[{"(", 
+                RowBox[{
+                 FractionBox[
+                  TemplateBox[{"1"},
+                   "OutputSizeLimit`Skeleton",
+                   DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                  RowBox[{"3", " ", 
+                   TemplateBox[{"2"},
+                    "OutputSizeLimit`Skeleton",
+                    DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                   " ", 
+                   RowBox[{"km", "[", "2", "]"}]}]], "+", 
+                 TemplateBox[{"1"},
+                  "OutputSizeLimit`Skeleton",
+                  DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                 "-", 
+                 FractionBox[
+                  TemplateBox[{"1"},
+                   "OutputSizeLimit`Skeleton",
+                   DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                  TemplateBox[{"1"},
+                   "OutputSizeLimit`Skeleton",
+                   DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 
+                    7]& )]]}], ")"}]}]}]], "+", 
+            FractionBox[
+             RowBox[{"kcr", " ", 
+              RowBox[{"T", "[", "2", "]"}], " ", 
+              RowBox[{"x", "[", "4", "]"}]}], 
+             RowBox[{
+              RowBox[{"km", "[", "2", "]"}], "+", 
+              RowBox[{"x", "[", "4", "]"}], "+", 
+              RowBox[{
+               RowBox[{"kd", "[", "2", "]"}], " ", 
+               RowBox[{"km", "[", "2", "]"}], " ", 
+               RowBox[{"(", 
+                TemplateBox[{"1"},
+                 "OutputSizeLimit`Skeleton",
+                 DisplayFunction->(FrameBox[
+                   
+                   RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                   Background -> GrayLevel[0.75], 
+                   BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                   Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                   FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                ")"}]}]}]], "-", 
+            FractionBox[
+             RowBox[{"kcr", " ", 
+              RowBox[{"km", "[", "1", "]"}], " ", 
+              RowBox[{"T", "[", "2", "]"}], " ", 
+              RowBox[{"x", "[", "4", "]"}], " ", 
+              RowBox[{"(", 
+               RowBox[{"1", "+", 
+                RowBox[{
+                 RowBox[{"kd", "[", "1", "]"}], " ", 
+                 RowBox[{"(", 
+                  RowBox[{
+                   FractionBox[
+                    TemplateBox[{"1"},
+                    "OutputSizeLimit`Skeleton",
+                    DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                    RowBox[{"3", " ", 
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}]}]], "+", 
+                   FractionBox[
+                    RowBox[{
+                    SuperscriptBox["2", 
+                    TemplateBox[{"1"},
+                    "OutputSizeLimit`Skeleton",
+                    DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )]], 
+                    
+                    TemplateBox[{"1"},
+                    "OutputSizeLimit`Skeleton",
+                    DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                    RowBox[{"(", 
+                    RowBox[{
+                    TemplateBox[{"1"},
+                    "OutputSizeLimit`Skeleton",
+                    DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                    TemplateBox[{"1"},
+                    "OutputSizeLimit`Skeleton",
+                    DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )]}]}
+                    ]}], 
+                    RowBox[{"3", " ", 
+                    TemplateBox[{"4"},
+                    "OutputSizeLimit`Skeleton",
+                    DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 
+                    7]& )]}]], "-", 
+                   FractionBox[
+                    SuperscriptBox[
+                    RowBox[{"(", 
+                    TemplateBox[{"1"},
+                    "OutputSizeLimit`Skeleton",
+                    DisplayFunction->(FrameBox[
+                    
+                    RowBox[{
+                    "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                    Background -> GrayLevel[0.75], 
+                    BaseStyle -> {
+                    "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                    ShowStringCharacters -> False}, BaselinePosition -> 
+                    Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                    FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )], 
+                    ")"}], 
+                    RowBox[{"1", "/", "3"}]], 
+                    RowBox[{"3", " ", 
+                    SuperscriptBox["2", 
+                    RowBox[{"1", "/", "3"}]], " ", 
+                    RowBox[{"kd", "[", "1", "]"}], " ", 
+                    RowBox[{"kd", "[", "2", "]"}], " ", 
+                    RowBox[{"km", "[", "2", "]"}]}]]}], ")"}]}]}], ")"}]}], 
+             TemplateBox[{"1"},
+              "OutputSizeLimit`Skeleton",
+              DisplayFunction->(FrameBox[
+                
+                RowBox[{
+                 "\" \[CenterEllipsis]\"", #, "\"\[CenterEllipsis] \""}], 
+                Background -> GrayLevel[0.75], 
+                BaseStyle -> {
+                 "Deploy", FontColor -> GrayLevel[1], FontSize -> Smaller, 
+                  ShowStringCharacters -> False}, BaselinePosition -> 
+                Baseline, ContentPadding -> False, FrameMargins -> 1, 
+                FrameStyle -> GrayLevel[0.75], RoundingRadius -> 7]& )]]}]}], 
+          "}"}],
+         Short[#, 5]& ],
+        BaseStyle->{Deployed -> False},
+        StripOnInput->False]},
+      {GridBox[{
+         {
+          TagBox[
+           TooltipBox[
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource[
+                "FEStrings", "sizeBriefExplanation"], StandardForm],
+               ImageSizeCache->{58., {2., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarCategory",
+             StripOnInput->False],
+            StyleBox[
+             DynamicBox[
+              ToBoxes[
+               FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"], 
+               StandardForm]], DynamicUpdating -> True, StripOnInput -> 
+             False]],
+           Annotation[#, 
+            Style[
+             Dynamic[
+              FEPrivate`FrontEndResource["FEStrings", "sizeExplanation"]], 
+             DynamicUpdating -> True], "Tooltip"]& ], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm],
+               ImageSizeCache->{51., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowLess"], 
+                StandardForm]],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            Identity, 2612, 23584033851199460344, 5/2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{56., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowMore"], 
+                StandardForm],
+               ImageSizeCache->{56., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            Identity, 2612, 23584033851199460344, 5 2],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{42., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeShowAll"], 
+                StandardForm],
+               ImageSizeCache->{42., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           
+           ButtonFunction:>OutputSizeLimit`ButtonFunction[
+            Identity, 2612, 23584033851199460344, Infinity],
+           Enabled->True,
+           Evaluator->Automatic,
+           Method->"Queued"], 
+          ButtonBox[
+           PaneSelectorBox[{False->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{73., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControl",
+             StripOnInput->False], True->
+            StyleBox[
+             StyleBox[
+              DynamicBox[ToBoxes[
+                FEPrivate`FrontEndResource["FEStrings", "sizeChangeLimit"], 
+                StandardForm],
+               ImageSizeCache->{73., {0., 8.}}],
+              StripOnInput->False,
+              DynamicUpdating->True], "SuggestionsBarControlActive",
+             StripOnInput->False]}, Dynamic[
+             CurrentValue["MouseOver"]],
+            Alignment->Center,
+            FrameMargins->0,
+            ImageSize->{Automatic, 25}],
+           Appearance->None,
+           ButtonFunction:>FrontEndExecute[{
+              FrontEnd`SetOptions[
+              FrontEnd`$FrontEnd, 
+               FrontEnd`PreferencesSettings -> {"Page" -> "Evaluation"}], 
+              FrontEnd`FrontEndToken["PreferencesDialog"]}],
+           Evaluator->None,
+           Method->"Preemptive"]}
+        },
+        AutoDelete->False,
+        FrameStyle->GrayLevel[0.85],
+        GridBoxDividers->{"Columns" -> {False, {True}}},
+        GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+        GridBoxSpacings->{"Columns" -> {{2}}}]}
+     },
+     DefaultBaseStyle->"Column",
+     GridBoxAlignment->{
+      "Columns" -> {{Left}}, "ColumnsIndexed" -> {}, "Rows" -> {{Baseline}}, 
+       "RowsIndexed" -> {}},
+     GridBoxDividers->{
+      "Columns" -> {{False}}, "ColumnsIndexed" -> {}, "Rows" -> {{False}}, 
+       "RowsIndexed" -> {}},
+     GridBoxItemSize->{
+      "Columns" -> {{Automatic}}, "ColumnsIndexed" -> {}, "Rows" -> {{1.}}, 
+       "RowsIndexed" -> {}},
+     GridBoxSpacings->{"Columns" -> {
+         Offset[0.27999999999999997`], {
+          Offset[0.5599999999999999]}, 
+         Offset[0.27999999999999997`]}, "ColumnsIndexed" -> {}, "Rows" -> {
+         Offset[0.2], 
+         Offset[1.2], {
+          Offset[0.4]}, 
+         Offset[0.2]}, "RowsIndexed" -> {}}],
+    Background->RGBColor[0.9657, 0.9753, 0.9802],
+    FrameMargins->{{12, 12}, {0, 15}},
+    FrameStyle->GrayLevel[0.85],
+    RoundingRadius->5,
+    StripOnInput->False],
+   Deploy,
+   DefaultBaseStyle->"Deploy"],
+  Out[2612]]], "Output",
+ CellChangeTimes->{3.643732339825753*^9}]
+}, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[
+ RowBox[{"Solve", "[", 
+  RowBox[{
+   RowBox[{"t3", "/.", "t4Sol"}], ",", 
+   RowBox[{"x", "[", "4", "]"}]}], "]"}]], "Input",
+ CellChangeTimes->{{3.643732294411021*^9, 3.6437323288941393`*^9}}],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.643747356916955*^9}]
 }, Open  ]],
 
 Cell["\<\
@@ -2548,337 +5528,271 @@ Cell[BoxData[{
    3.643717377995943*^9, 3.64371738334451*^9}}],
 
 Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Event location failed to converge to the requested \
-accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
-between \[NoBreak]\\!\\(t\\)\[NoBreak] = \
-\[NoBreak]\\!\\(7145.993997133902`\\)\[NoBreak] and \[NoBreak]\\!\\(t\\)\
-\[NoBreak] = \[NoBreak]\\!\\(7211.304278129098`\\)\[NoBreak]. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
-\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.643717219614604*^9}],
-
-Cell[BoxData[
  TemplateBox[{GraphicsBox[{{{}, {}, {
        Directive[
         Opacity[1.], 
         RGBColor[0.368417, 0.506779, 0.709798], 
         AbsoluteThickness[1.6]], 
        LineBox[CompressedData["
-1:eJxNzwdQVEcYB/CjiJQBQSmhSJOSGDSIVBFuGciEEkaKhBMNIkEgQABpB2dI
-VOAmAoKF4jWaIEUE3lHkAIWEInIeEHBUJBEEzRkxIp0kAgmZ57fZmTdvfvP/
-77e7BsExPiclKRRK8r/f5t/QwWy3ufsu6lr13IhnsBe1xj76w0eEBFoi7SNW
-zGsgVMAmt3914xEGaJG0clVv+RViHziDZzeSQzhBn3p1ITyb8Aavv3v68s3O
-L8AdJwbCvTMD0DJpbdWuqnNdxyBn9DW/bFwOhFxlf6MtSj8OfnCI5vKbbBBY
-X8Y/qvZQEGKo1n32jJFOjerwy4srCELJpKU/8n2+vusEmJvvZZlFYJf+cN9x
-2DUSPOpQXi4fG4fopIvU71Vzc+LBEbN/1O29mYCSSPOMbcxHFxMgHz56hqAf
-TIT892WjebegRMglL9+z0ElPhPN09kTHv6lMRIWszSWgWvVvb+oSJqIC0mzL
-iha5o0konzSl1Ebg8yoJ8gKfs91JpilgM2mhiB1yGua1WMqyQvu/R1dJl/AN
-LTTVz4Fn6XxJ4zEmzBdfLwx+6J4F87ybxdPTihdh3tPUx6d0Iy9DH/0df/dG
-cR70pbtb9cakCsE8ahX1CJUFfadT7g4MfzbkL8peH+DEcCDvShUGsPKx2bQa
-RmE7B99nW5mkRi8HrW1srlmqbB8rs2CQg9ZJ3/n20nb1x9iJ+8+z859x0Abp
-qZLkmrxFnHsphbdd2cpF70hv6TH+K9eXC/PbUqbtsou5iPLfeks1ehEoSLfh
-QT/X64lt6hAP+oNnr3M0ZoqQBNlnHrHboEmVIEnSd3rc9inxsFc+Cfiq27oU
-3Jli3JwTUoakSM/t7IuQ+u4akiZ9OKzdwLW+HGyowDxofb8CbHC4grZIqQTT
-lWOCd5hXwTxbU6Xhcfdq8O5pCWpCag2cz/xzQKWFcwPyA2mOI7SmWrAeXyZP
-+PwmONq+XCCm1INXLD3efq3VAJ7KYDEuEg1wn3nplg+UVrGl0kdashwJsAVN
-gdkTQsD+IDMXv7VMbHrBZIdmEe7nUFKNrAnsny/EEqxG3FfVDnFca8a5f5W/
-MKj1fW6E2FYetJ42gny/EdL3sojL6sR5RYRmtk8PzhuKxZ2TIuyOB80L0Y+w
-G0d1ZgZ0+bC/ZiRtyiSUT55vhOjRfmratdgu8qau2+b5SIZ04JDn6RWHRjA9
-L6Fu4jz2hLC2L12jCW19b2VdX4+Q/9kvd0KFaEKypBlzSz0/rWKrXThWE4+a
-oc/s3SPsYGIvr63PbBFhNx43VnTWbIH9sT967D1zErs/JayqshZbzyLNcGgB
-u3vHIvcVugUOWwrRkMm5BfMn45FIMIYdMK+d9o1xK/Sj776+pBCFfY57u6Sa
-34rkSE+xp+vtN3DuzJLrFHkIILdzRrl9T7DlrfosxvXbkDzpcZPPH86GtiEF
-0qtOpoxVPrbal5K6Ehu4Lxoc0Vr8tB2cga5piLOxV2XyU7R+wY4UMcc9P+4A
-/wMOpv5m
+1:eJxF0g0wm3ccwPE0mNZ6SleTmrpWYr15W2krVRP/qm5cWRXHOm/l8VrUmXm5
+SLxVUC/xFtQquzYdo3Re52U1Nu22I6oRjlHWpRMuLUaraONltXv6+z93udzn
+vr////88T3IoMNotmEqhUOLffLa/n3tdivzJaoOlrF2SugS62v27s3vX3oGn
+dm/Nq1QZXha/Bn+6rOEb10NBb+2kJ3BdpKmCndEBh4iv1NE6adeQauaMWAOl
+7PvhMxk7w848RU5V0PaBj4tXFX+J9VAyaSu/LqIyUR/6iaXUqQtGBtC/fZcX
+dqnnIEolfdNC00dOY8B8Dffg6UdiY+gTOaLsf2jHwLLR1uhx8Umwe7hKDL3W
+AWwVamr85dxZsHi1f9i82wOlkR6UWE8aBnmDWWUcJ9stP/DYHf9HJi4B4PWx
+gLFcRiDYkBo0/EyJXZ8XJL1nQYCP6wYPXQ8l4Pw/rY2GtOMIdK1i++q0Y/vI
+JVnpBColrZ9SJdkoIFA56e6bwZJYIYHKSF+8byRR3MbzKrPyh/4dBCoh7Wga
+8vDsMO75MTODzAUCCUhL20IG6buCwN6nQh8oWUGw/rJnmLjuNvYRr+erSdwQ
+mH/hxWE4u4aBZUSUSD4dAfMrboxb0zbR0Dkuse+kR8WAtYl2joNBLNzfxEY4
+78rvX0PXOyPqlRbHQ1/g2v7qgRLh+a0Jv+UZbTa488F858uJJHhfvcoQ7vuN
+HPDAR38jJo8LnjI+l7ijhwvvf8Gku0G8hq21u35FlZKMVCjb16Kd5VyFLUs9
+GamS9hjIykjQxD2hPk7cqIPdFXn+Ap2RjKikKWZms6WWuGffmaYmncP7aZtX
+GlyMxD52hJ2//Bjb0/KL9Wz3FHDzWKCwSicVfLKsoiszDTtD4aRzPiINHJ5i
+0T7umg7W5fd3Kj+8gtRI74itHjXakwH+UXLUQzGbAfMqMWt6EV08cN7slnJZ
+lAl+PNphS2NnwfrLla0Vp4ls6OXfzbLMHK+Cc4wGHBoP5IA7OC+CbNRywY3O
+A3L/KWx7/8kG+6Y82F/L8WOBWXk+9MnEprZoKh96Te3R8aYobFGhfvC9HGxh
+gtrSyPfYHEG6YUIdtk/Tlvv+BmybQQ7vbjMfbWxtX3Sk9+xVm28bH62THmcs
+7xf9jPs1vwXOzH0++n85hYF0pE/so4f55P+BgYrPjO1ck+Ge+V7twQ/0C8BJ
+MvYJlmcB2iT367dOoA31FsB5u/us15t0C8ETv/E2nzpj1/QOURjp2AGHc/d+
+87IQ7m+RKYhNMikCpzgKR3wCiuA8oSbzk1+uY98dkdyij+L51IgOYfyeYugO
+1BvlfY7FaIu0zWqLwj4Z23LuD5uuFjzfURYpaJ/HnXVKe775cAn0FacnwhHf
+EugNbi2fr5Rga5pKi9T7sKPe/Jy0TWxvwQ2DeqYA9nOiu4bZxWCHa5lqvKoW
+wPzVDfX65kns9tetsjpaKczLVwN0qzxKof8HfOV/Hg==
         "]]}, {
        Directive[
         Opacity[1.], 
         RGBColor[0.880722, 0.611041, 0.142051], 
         AbsoluteThickness[1.6]], 
        LineBox[CompressedData["
-1:eJwd13c8ll8bAHDZafyUZMVjFZlZUcJVSXaSykhFZIRk7+yy9957ZD2PPUpD
-kpU0jQoJkQaSst7rfv/q8+1xn/s+51zjHD7zm/qW1FRUVKE0VFTEv/xKYiKH
-NAVUmDJXNTmcL6qUKzoIvyNvgYNL3SqforhBf3pHYg15F3gbz64QflEzmeAa
-zgmqr3qKx9AH7n/QyCLzwcN8Ps1x9CTf8+eb3AcgqiPuM+GC0DoN83ARKAur
-cZ5AM5c+LUwgS4HZwiGvz+ibxq2THdMyYC+Q8otw/3ay4DL3YYg43Wg2iZZo
-L7YQMlCAv8wb3YSjbmUWGoYfhUPP3ol/QX8TiJ8Me3gM/E5VhhPWfntHsHVZ
-GZQMX40TDsk6MhhNPg6Cg3b+U+g6N1mnkt4TsFfKs4vw5BnJ3Q+nT8IZXbbt
-0+g9B0Uo76lPQWdSiBZhVer9+r+41UCghO4OYZcR0sLWI6fh+cfXDwgX1HHG
-8xuow6NykUXC1FbMg+fCNYEpTUV/Bi0N25zsirSAyuCqL2EzDvrdIQ+14VlZ
-dxHh2AUqStaIDry5X9ZD+GHP6tmGZV3guifwg7CH/qrHNKMe7OUxZf5KrF/7
-Spdzsh6krHlKElZJXbSOJJ+F03zvrQi/pf3VxK6iDz2k8wGEHW59Zyzq1YeQ
-RpE0wvQf5wyljM/B4nbnasLZml9L70+fA3st1Q7ChxunVjRcDSD4Y/07wv0C
-k+pvqc/DSfpPXwlvrH2c+c59AUxScphm0ck2owre9y7AZWFTDsISb4fuMhy5
-CH2POIQId5549z6h8yIUr32WIWxa/VqY18AQlv51qxBe4hr0qBg3BNrJUU3C
-kXdfdCncNALj2f3nCbeZdVufDTcGV44oK8IG/c+aPrCZgNP5RzcJfzv6lNG2
-yARk9AzdCQeXPDZclr4EP7NN/Ahz7XlYGvjwEoy/fR1MmOJ/f2Wnril8se4N
-J6w536KeMWIKl+k0YglPGDWlCtlchjg1/STCXp31M7XLl0G2+0ca4V0ytQoQ
-fAXWxA9mE359xlB1ivEqnLWkySfMS3/RruLMVUjZCd7zaLu284lOyVfheWuJ
-8hK6ycmgTeHDVVh0o0n7h6Y9eG5yQ8AMuNw6YqmiuSEzSU82gmwGrBdbb25D
-y7oWXjq1YQYdW+O7mNG9BivBm5rmIP/p6jNWtIWsdmVzijnEpP+8xYleY8l9
-4zxpDiP0j/p40ImLi+viUtdg9N3wJ3602KvTB2Z8r0GL23rFAbRp/A+3S2wW
-sO3hYpg4evnWyZy9FhYgHPg17xA6+mzKs4EaCwh2EAmRQR+QmvsRvm4B4SHM
-8ofRD5hV2E9pWoKcQF+LAvrCz3jYTLaEy65nWRTR319MWTd/toR9YxEnldA8
-MdHN4r7XIbH2vNxxdIPDxPj08+vw4FvI6gm0ru5hpvy9VrB+hZKvip4SD5e+
-dM0KYvZxiKuhb+/4aLy3xgpUfsdlnkazz0sFDaxZgYHwlkV1dE1vyL1wDWso
-4/eW0kSPRYivbUxYw8bZajtttMeNAMFmSRvo01l10EEza73RdvaxgWD61Ku6
-6FKRg67iz23gsoe74hk0MPlmTbPaAsMhRUY99PuvA0/zzG1h3UzmGWHH54Lf
-Tapt4Tu1l8dZdN7dXuUB9RvAI7mvXh991JrXKjzpBhiJ7jtxDj142iVGdeIG
-bAuI6SBsK9TVuCFhB+7jB5QM0NQM+8aavO0gbTW0gnD61E1G5y472HVEk+U8
-WrrzySFxVnv4/Hf1FmHzkBsBeVX2oP3UiOMC+p9Fe5nJqj046/8wJxyvyjLI
-qu4A1B8tiwmLCFr9e5HoAIJ2bJOEn9C08oePO0DuFbt9F9GXPu/UUpW4CYOf
-ms8QXnps7rzhdRMO01/wIxyZ35DR9OwmTEJsKeHdx+nMjzA5grUapZ/wx0OS
-bsmHHMGwbcsvwuW8RuGLFxwh1aL9P0O0G3NQtp6vI/i/ExIlfIKqklJZ4Agd
-Y04nCe/8+baTqdsRBoLeGhIe/kQ1YvUTxzsXeINw8QuRHx17b8HqSLE3Yad2
-Axp+pVugwmkfRli52o/t9rVbcFRwPZEwU06p6GjYLaA18M0m/DZ6UOVIzS2I
-5NlVTDjfb+1c8ttbMLU8dI+wg8MB68W1W9C853c14aOX9Xz0BJxAsT2AQphe
-1yu2UsMJICijlvArpcJCJkcnuGNk9H9/e6/+ZTTBCRIUV8j//3uX+f3Vjeim
-2P+PR/ov/nrAiBPESktXEFYoP1xybtMJema+lRDWPzUyvV/AGbaEDeQTvjF2
-W3hFzRmy/GYzCQd7C9p02zqDVunpZMLZe5+XZUY7w8+JpWjCTWT7WQeKM0wF
-rYcSfqm9W/T4W2cwGr/hR5g2yKTiC7cL8Bwo+P968vBQzTcedwHDsNtmhOWb
-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
-faEjOqJt0PnqmyXh/wFS43Sk
+1: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
         "]]}}}, {
     DisplayFunction -> Identity, AspectRatio -> 
      NCache[GoldenRatio^(-1), 0.6180339887498948], Axes -> {True, True}, 
@@ -2891,7 +5805,7 @@ faEjOqJt0PnqmyXh/wFS43Sk
      Method -> {
       "DefaultBoundaryStyle" -> Automatic, "DefaultMeshStyle" -> 
        AbsolutePointSize[6], "ScalingFunctions" -> None}, 
-     PlotRange -> {{0., 7211.30427812913}, {0., 10.00000000000002}}, 
+     PlotRange -> {{0., 1365.1612498708128`}, {0., 10.000000000000004`}}, 
      PlotRangeClipping -> True, PlotRangePadding -> {{
         Scaled[0.02], 
         Scaled[0.02]}, {
@@ -3092,20 +6006,20 @@ faEjOqJt0PnqmyXh/wFS43Sk
          RowBox[{#2, ",", "After"}], "]"}]}], "]"}]& )]], "Output",
  CellChangeTimes->{{3.643716634245659*^9, 3.643716640898151*^9}, {
    3.643716790490316*^9, 3.6437168334347477`*^9}, {3.643716877273335*^9, 
-   3.643716915383768*^9}, 3.643717219698403*^9}],
+   3.643716915383768*^9}, 3.643717219698403*^9, 3.64374751392872*^9}],
 
 Cell[BoxData[
  GraphicsBox[{{}, {{}, 
     {RGBColor[0.368417, 0.506779, 0.709798], PointSize[0.012833333333333334`],
       AbsoluteThickness[1.6], 
-     PointBox[{{-6.907755278982139, 7.388590373300547}, {-4.605170185988092, 
-      7.389007362054981}, {-2.3025850929940463`, 7.392536486239111}, {
-      8.881784197001248*^-16, 7.427362361617945}, {2.3025850929940477`, 
-      7.7563533925511186`}}]}, {}}, {}},
+     PointBox[{{-6.907755278982137, 9.412968995594264}, {-4.60517018598809, 
+      9.413419645654487}, {-2.302585092994046, 9.418109467921584}, {
+      1.110223024625156*^-15, 9.464980456102888}, {2.3025850929940455`, 
+      9.875792842183747}}]}, {}}, {}},
   AspectRatio->NCache[GoldenRatio^(-1), 0.6180339887498948],
   Axes->{True, True},
   AxesLabel->{None, None},
-  AxesOrigin->{-7.246547096050273, 0},
+  AxesOrigin->{-7.246547096050271, 0},
   CoordinatesToolOptions:>{"DisplayFunction" -> ({
       Exp[
        Part[#, 1]], 
@@ -3123,7 +6037,7 @@ Cell[BoxData[
   GridLinesStyle->Directive[
     GrayLevel[0.5, 0.4]],
   Method->{},
-  PlotRange->{{-7.0996373700649755`, 2.3025850929940477`}, {0, 10}},
+  PlotRange->{{-7.099637370064974, 2.3025850929940455`}, {0, 10}},
   PlotRangeClipping->True,
   PlotRangePadding->{{
      Scaled[0.02], 
@@ -3550,7 +6464,7 @@ Cell[BoxData[
         AbsoluteThickness[0.1]}}}, Automatic}]]], "Output",
  CellChangeTimes->{{3.643716634245659*^9, 3.643716640898151*^9}, {
    3.643716790490316*^9, 3.6437168334347477`*^9}, {3.643716877273335*^9, 
-   3.643716915383768*^9}, 3.643717219742816*^9}]
+   3.643716915383768*^9}, 3.643717219698403*^9, 3.643747513986651*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -3629,38 +6543,46 @@ Cell[CellGroupData[{
 Cell[41759, 1301, 958, 28, 51, "Input"],
 Cell[42720, 1331, 1819, 54, 90, "Output"]
 }, Open  ]],
+Cell[44554, 1388, 5547, 156, 148, "Input"],
 Cell[CellGroupData[{
-Cell[44576, 1390, 706, 19, 28, "Input"],
-Cell[45285, 1411, 2010, 56, 79, "Output"]
+Cell[50126, 1548, 706, 19, 28, "Input"],
+Cell[50835, 1569, 2010, 56, 79, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[47332, 1472, 366, 10, 28, "Input"],
-Cell[47701, 1484, 138, 3, 28, "Output"]
+Cell[52882, 1630, 443, 12, 28, "Input"],
+Cell[53328, 1644, 101706, 2370, 2546, "Output"]
 }, Open  ]],
-Cell[47854, 1490, 187, 4, 30, "Text"],
-Cell[48044, 1496, 2581, 64, 119, "Input"],
-Cell[50628, 1562, 271, 6, 30, "Text"],
 Cell[CellGroupData[{
-Cell[50924, 1572, 8312, 238, 233, "Input"],
-Cell[59239, 1812, 464, 9, 24, "Message"],
-Cell[59706, 1823, 4863, 146, 187, "Output"]
+Cell[155071, 4019, 55, 1, 28, "Input"],
+Cell[155129, 4022, 19094, 432, 163, "Output"]
 }, Open  ]],
-Cell[64584, 1972, 125, 1, 30, "Text"],
-Cell[64712, 1975, 973, 31, 44, "DisplayFormula"],
-Cell[65688, 2008, 96, 1, 30, "Text"],
 Cell[CellGroupData[{
-Cell[65809, 2013, 1631, 50, 80, "Input"],
-Cell[67443, 2065, 1559, 48, 78, "Output"]
+Cell[174260, 4459, 208, 5, 28, "Input"],
+Cell[174471, 4466, 77, 1, 28, "Output"]
+}, Open  ]],
+Cell[174563, 4470, 187, 4, 30, "Text"],
+Cell[174753, 4476, 2581, 64, 119, "Input"],
+Cell[177337, 4542, 271, 6, 30, "Text"],
+Cell[CellGroupData[{
+Cell[177633, 4552, 8312, 238, 233, "Input"],
+Cell[185948, 4792, 464, 9, 24, "Message"],
+Cell[186415, 4803, 4863, 146, 187, "Output"]
+}, Open  ]],
+Cell[191293, 4952, 125, 1, 30, "Text"],
+Cell[191421, 4955, 973, 31, 44, "DisplayFormula"],
+Cell[192397, 4988, 96, 1, 30, "Text"],
+Cell[CellGroupData[{
+Cell[192518, 4993, 1631, 50, 80, "Input"],
+Cell[194152, 5045, 1559, 48, 78, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[69051, 2119, 235, 5, 99, "Section"],
-Cell[69289, 2126, 601, 9, 87, "Text"],
+Cell[195760, 5099, 235, 5, 99, "Section"],
+Cell[195998, 5106, 601, 9, 87, "Text"],
 Cell[CellGroupData[{
-Cell[69915, 2139, 16120, 408, 717, "Input"],
-Cell[86038, 2549, 679, 13, 41, "Message"],
-Cell[86720, 2564, 29221, 530, 241, "Output"],
-Cell[115944, 3096, 17898, 456, 252, "Output"]
+Cell[196624, 5119, 16120, 408, 717, "Input"],
+Cell[212747, 5529, 26204, 479, 241, "Output"],
+Cell[238954, 6010, 17913, 456, 252, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

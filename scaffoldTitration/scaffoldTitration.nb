@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    233499,       5987]
-NotebookOptionsPosition[    230053,       5872]
-NotebookOutlinePosition[    230408,       5888]
-CellTagsIndexPosition[    230365,       5885]
+NotebookDataLength[    236123,       6047]
+NotebookOptionsPosition[    232501,       5928]
+NotebookOutlinePosition[    232856,       5944]
+CellTagsIndexPosition[    232813,       5941]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -5865,7 +5865,63 @@ ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
 ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
 \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
  CellChangeTimes->{3.643871126923682*^9, 3.6438716231751738`*^9, 
-  3.643872286788618*^9, 3.643872559769517*^9}]
+  3.643872286788618*^9, 3.643872559769517*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"NDSolve", "::", "ndsz"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"At \[NoBreak]\\!\\(t\\)\[NoBreak] == \
+\[NoBreak]\\!\\(93032.89908593916`\\)\[NoBreak], step size is effectively \
+zero; singularity or stiff system suspected. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/NDSolve/ndsz\\\", ButtonNote -> \
+\\\"NDSolve::ndsz\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.643871126923682*^9, 3.6438716231751738`*^9, 
+  3.643872286788618*^9, 3.643872716639998*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"NDSolve", "::", "ndsz"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"At \[NoBreak]\\!\\(t\\)\[NoBreak] == \
+\[NoBreak]\\!\\(196415.4124309197`\\)\[NoBreak], step size is effectively \
+zero; singularity or stiff system suspected. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/NDSolve/ndsz\\\", ButtonNote -> \
+\\\"NDSolve::ndsz\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.643871126923682*^9, 3.6438716231751738`*^9, 
+  3.643872286788618*^9, 3.643872718593781*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"NDSolve", "::", "ndsz"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"At \[NoBreak]\\!\\(t\\)\[NoBreak] == \
+\[NoBreak]\\!\\(114291.17710473624`\\)\[NoBreak], step size is effectively \
+zero; singularity or stiff system suspected. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/NDSolve/ndsz\\\", ButtonNote -> \
+\\\"NDSolve::ndsz\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.643871126923682*^9, 3.6438716231751738`*^9, 
+  3.643872286788618*^9, 3.6438727654510527`*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(NDSolve \
+:: ndsz\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this \
+calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.643871126923682*^9, 3.6438716231751738`*^9, 
+  3.643872286788618*^9, 3.6438727654862823`*^9}]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]
@@ -5985,7 +6041,11 @@ Cell[196624, 5119, 30514, 686, 1392, "Input"],
 Cell[227141, 5807, 752, 14, 24, "Message"],
 Cell[227896, 5823, 754, 14, 24, "Message"],
 Cell[228653, 5839, 753, 14, 24, "Message"],
-Cell[229409, 5855, 604, 12, 24, "Message"]
+Cell[229409, 5855, 604, 12, 24, "Message"],
+Cell[230016, 5869, 610, 12, 24, "Message"],
+Cell[230629, 5883, 610, 12, 24, "Message"],
+Cell[231242, 5897, 613, 12, 24, "Message"],
+Cell[231858, 5911, 603, 12, 24, "Message"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

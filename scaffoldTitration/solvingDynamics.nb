@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   1693177,      37966]
-NotebookOptionsPosition[   1688829,      37822]
-NotebookOutlinePosition[   1689205,      37839]
-CellTagsIndexPosition[   1689162,      37836]
+NotebookDataLength[   1693367,      37975]
+NotebookOptionsPosition[   1688943,      37828]
+NotebookOutlinePosition[   1689319,      37845]
+CellTagsIndexPosition[   1689276,      37842]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -35206,9 +35206,15 @@ Cell[BoxData[
  CellChangeTimes->{3.643872694802245*^9}]
 }, Open  ]],
 
+Cell[CellGroupData[{
+
 Cell[BoxData[
  RowBox[{"Simplify", "[", "ddfinverse", "]"}]], "Input",
  CellChangeTimes->{{3.643872790809895*^9, 3.6438727964507227`*^9}}],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.643874058575542*^9}]
+}, Open  ]],
 
 Cell[TextData[{
  "If we don\[CloseCurlyQuote]t substitue ",
@@ -37956,16 +37962,19 @@ Cell[CellGroupData[{
 Cell[694072, 15870, 316, 8, 39, "Input"],
 Cell[694391, 15880, 883423, 19325, 14280, "Output"]
 }, Open  ]],
-Cell[1577829, 35208, 138, 2, 39, "Input"],
-Cell[1577970, 35212, 740, 24, 32, "Text"],
 Cell[CellGroupData[{
-Cell[1578735, 35240, 151, 3, 39, "Input"],
-Cell[1578889, 35245, 11944, 291, 276, "Output"]
+Cell[1577851, 35210, 138, 2, 39, "Input"],
+Cell[1577992, 35214, 77, 1, 39, "Output"]
+}, Open  ]],
+Cell[1578084, 35218, 740, 24, 32, "Text"],
+Cell[CellGroupData[{
+Cell[1578849, 35246, 151, 3, 39, "Input"],
+Cell[1579003, 35251, 11944, 291, 276, "Output"]
 }, Closed]],
-Cell[1590848, 35539, 11984, 291, 267, "Input"],
+Cell[1590962, 35545, 11984, 291, 278, "Input"],
 Cell[CellGroupData[{
-Cell[1602857, 35834, 519, 12, 28, "Input"],
-Cell[1603379, 35848, 85422, 1970, 1950, "Output"]
+Cell[1602971, 35840, 519, 12, 28, "Input"],
+Cell[1603493, 35854, 85422, 1970, 1950, "Output"]
 }, Closed]]
 }, Open  ]]
 }

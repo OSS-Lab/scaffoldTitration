@@ -14545,8 +14545,8 @@ HEULDEDKuwwWvBbcMzaM/h81wjby
 }, Open  ]]
 }, Open  ]]
 },
-WindowSize->{1208, 735},
-WindowMargins->{{32, Automatic}, {Automatic, 0}},
+WindowSize->{1223, 751},
+WindowMargins->{{28, Automatic}, {Automatic, 0}},
 FrontEndVersion->"10.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 23, \
 2015)",
 StyleDefinitions->"Default.nb"
@@ -14576,8 +14576,8 @@ Cell[10393, 310, 198, 3, 30, "Text"],
 Cell[10594, 315, 715, 24, 26, "DisplayFormula"],
 Cell[11312, 341, 173, 2, 30, "Text"],
 Cell[CellGroupData[{
-Cell[11510, 347, 6054, 193, 386, "Input"],
-Cell[17567, 542, 3829, 120, 80, "Output"],
+Cell[11510, 347, 6054, 193, 182, "Input"],
+Cell[17567, 542, 3829, 120, 63, "Output"],
 Cell[21399, 664, 748, 20, 28, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
@@ -14626,7 +14626,7 @@ Cell[50835, 1569, 2010, 56, 50, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[52882, 1630, 443, 12, 28, "Input"],
-Cell[53328, 1644, 101706, 2370, 1719, "Output"]
+Cell[53328, 1644, 101706, 2370, 1700, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[155071, 4019, 55, 1, 28, "Input"],

@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   2297576,      39814]
-NotebookOptionsPosition[   2294803,      39722]
-NotebookOutlinePosition[   2295233,      39741]
-CellTagsIndexPosition[   2295190,      39738]
+NotebookDataLength[   2291562,      39682]
+NotebookOptionsPosition[   2289133,      39598]
+NotebookOutlinePosition[   2289563,      39617]
+CellTagsIndexPosition[   2289520,      39614]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1056,130 +1056,6 @@ Cell[BoxData[{
    3.645442088983642*^9, 3.645442094934054*^9}, {3.645442127102004*^9, 
    3.645442144325683*^9}, 3.645442676689294*^9, {3.645446446106119*^9, 
    3.645446446854973*^9}, 3.645448476881249*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Event location failed to converge to the requested \
-accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
-between \[NoBreak]\\!\\(t\\)\[NoBreak] = \
-\[NoBreak]\\!\\(2439.1645476835697`\\)\[NoBreak] and \[NoBreak]\\!\\(t\\)\
-\[NoBreak] = \[NoBreak]\\!\\(2487.5737175067684`\\)\[NoBreak]. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
-\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6452652967995377`*^9, 3.64526537281915*^9, 
-  3.645291371971429*^9, 3.645442851965598*^9, 3.64544849160562*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Event location failed to converge to the requested \
-accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
-between \[NoBreak]\\!\\(t\\)\[NoBreak] = \
-\[NoBreak]\\!\\(185.48114938646694`\\)\[NoBreak] and \[NoBreak]\\!\\(t\\)\
-\[NoBreak] = \[NoBreak]\\!\\(190.19565166435535`\\)\[NoBreak]. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
-\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6452652967995377`*^9, 3.64526537281915*^9, 
-  3.645291371971429*^9, 3.645442851965598*^9, 3.645448493669437*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Event location failed to converge to the requested \
-accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
-between \[NoBreak]\\!\\(t\\)\[NoBreak] = \
-\[NoBreak]\\!\\(1316.6424541831504`\\)\[NoBreak] and \[NoBreak]\\!\\(t\\)\
-\[NoBreak] = \[NoBreak]\\!\\(1316.7079845289838`\\)\[NoBreak]. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
-\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6452652967995377`*^9, 3.64526537281915*^9, 
-  3.645291371971429*^9, 3.645442851965598*^9, 3.6454484995820513`*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(NDSolve \
-:: evcvmit\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during \
-this calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
-ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
-\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6452652967995377`*^9, 3.64526537281915*^9, 
-  3.645291371971429*^9, 3.645442851965598*^9, 3.645448499621907*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"InterpolatingFunction", "::", "dmval"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Input value \
-\[NoBreak]\\!\\({\\(-0.00039453674229113244`\\)}\\)\[NoBreak] lies outside \
-the range of data in the interpolating function. Extrapolation will be used. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/InterpolatingFunction/dmval\\\", \
-ButtonNote -> \\\"InterpolatingFunction::dmval\\\"]\\)\"\>"}]], "Message", \
-"MSG",
- CellChangeTimes->{3.6452652967995377`*^9, 3.64526537281915*^9, 
-  3.645291371971429*^9, 3.645442851965598*^9, 3.6454499485116158`*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"InterpolatingFunction", "::", "dmval"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Input value \
-\[NoBreak]\\!\\({\\(-0.00039453674229113244`\\)}\\)\[NoBreak] lies outside \
-the range of data in the interpolating function. Extrapolation will be used. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/InterpolatingFunction/dmval\\\", \
-ButtonNote -> \\\"InterpolatingFunction::dmval\\\"]\\)\"\>"}]], "Message", \
-"MSG",
- CellChangeTimes->{3.6452652967995377`*^9, 3.64526537281915*^9, 
-  3.645291371971429*^9, 3.645442851965598*^9, 3.645449948542336*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"InterpolatingFunction", "::", "dmval"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Input value \
-\[NoBreak]\\!\\({\\(-0.00039453674229113244`\\)}\\)\[NoBreak] lies outside \
-the range of data in the interpolating function. Extrapolation will be used. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/InterpolatingFunction/dmval\\\", \
-ButtonNote -> \\\"InterpolatingFunction::dmval\\\"]\\)\"\>"}]], "Message", \
-"MSG",
- CellChangeTimes->{3.6452652967995377`*^9, 3.64526537281915*^9, 
-  3.645291371971429*^9, 3.645442851965598*^9, 3.645449948571247*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Further output of \
-\[NoBreak]\\!\\(\\*StyleBox[\\(InterpolatingFunction :: dmval\\), \
-\\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during this calculation. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, ButtonData:>\\\"paclet:ref/message/General/stop\\\", \
-ButtonNote -> \\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6452652967995377`*^9, 3.64526537281915*^9, 
-  3.645291371971429*^9, 3.645442851965598*^9, 3.6454499486004*^9}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -39752,67 +39628,59 @@ Cell[10255, 303, 601, 9, 68, "Text"],
 Cell[10859, 314, 7563, 209, 261, "Input"],
 Cell[CellGroupData[{
 Cell[18447, 527, 26158, 530, 1098, "Input"],
-Cell[44608, 1059, 772, 14, 24, "Message"],
-Cell[45383, 1075, 773, 14, 24, "Message"],
-Cell[46159, 1091, 775, 14, 24, "Message"],
-Cell[46937, 1107, 625, 12, 24, "Message"],
-Cell[47565, 1121, 690, 14, 24, "Message"],
-Cell[48258, 1137, 688, 14, 24, "Message"],
-Cell[48949, 1153, 688, 14, 24, "Message"],
-Cell[49640, 1169, 635, 12, 24, "Message"],
-Cell[50278, 1183, 225, 4, 39, "Output"]
+Cell[44608, 1059, 225, 4, 39, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[50540, 1192, 1684, 45, 74, "Input"],
-Cell[52227, 1239, 1842407, 30222, 400, 1827578, 29978, "CachedBoxData", \
+Cell[44870, 1068, 1684, 45, 74, "Input"],
+Cell[46557, 1115, 1842407, 30222, 400, 1827578, 29978, "CachedBoxData", \
 "BoxData", "Output"]
 }, Open  ]],
-Cell[1894649, 31464, 419, 13, 39, "Input"],
+Cell[1888979, 31340, 419, 13, 39, "Input"],
 Cell[CellGroupData[{
-Cell[1895093, 31481, 263, 5, 39, "Input"],
-Cell[1895359, 31488, 424, 7, 39, "Output"]
+Cell[1889423, 31357, 263, 5, 39, "Input"],
+Cell[1889689, 31364, 424, 7, 39, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1895820, 31500, 219, 5, 39, "Input"],
-Cell[1896042, 31507, 413, 7, 39, "Output"]
+Cell[1890150, 31376, 219, 5, 39, "Input"],
+Cell[1890372, 31383, 413, 7, 39, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1896492, 31519, 633, 18, 74, "Input"],
-Cell[1897128, 31539, 927, 16, 57, "Output"]
+Cell[1890822, 31395, 633, 18, 74, "Input"],
+Cell[1891458, 31415, 927, 16, 57, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1898092, 31560, 128, 3, 39, "Input"],
-Cell[1898223, 31565, 922, 16, 57, "Output"]
+Cell[1892422, 31436, 128, 3, 39, "Input"],
+Cell[1892553, 31441, 922, 16, 57, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1899182, 31586, 11458, 263, 461, "Input"],
-Cell[1910643, 31851, 1082, 19, 97, "Output"],
-Cell[1911728, 31872, 34837, 778, 395, "Output"]
+Cell[1893512, 31462, 11458, 263, 461, "Input"],
+Cell[1904973, 31727, 1082, 19, 39, "Output"],
+Cell[1906058, 31748, 34837, 778, 395, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1946602, 32655, 5383, 141, 355, "Input"],
-Cell[1951988, 32798, 44502, 796, 395, "Output"]
+Cell[1940932, 32531, 5383, 141, 355, "Input"],
+Cell[1946318, 32674, 44502, 796, 395, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[1996527, 33599, 7077, 182, 427, "Input"],
-Cell[2003607, 33783, 767, 11, 39, "Output"],
-Cell[2004377, 33796, 53483, 982, 398, "Output"]
+Cell[1990857, 33475, 7077, 182, 427, "Input"],
+Cell[1997937, 33659, 767, 11, 39, "Output"],
+Cell[1998707, 33672, 53483, 982, 398, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2057897, 34783, 1674, 43, 74, "Input"],
-Cell[2059574, 34828, 39697, 930, 420, "Output"]
+Cell[2052227, 34659, 1674, 43, 74, "Input"],
+Cell[2053904, 34704, 39697, 930, 420, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2099308, 35763, 1643, 44, 74, "Input"],
-Cell[2100954, 35809, 65047, 1347, 420, "Output"]
+Cell[2093638, 35639, 1643, 44, 74, "Input"],
+Cell[2095284, 35685, 65047, 1347, 420, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2166038, 37161, 2275, 61, 101, "Input"],
-Cell[2168316, 37224, 42766, 769, 420, "Output"]
+Cell[2160368, 37037, 2275, 61, 101, "Input"],
+Cell[2162646, 37100, 42766, 769, 420, "Output"]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[2211119, 37998, 641, 17, 74, "Input"],
-Cell[2211763, 38017, 83000, 1700, 420, "Output"]
+Cell[2205449, 37874, 641, 17, 74, "Input"],
+Cell[2206093, 37893, 83000, 1700, 420, "Output"]
 }, Open  ]]
 }, Open  ]]
 }, Open  ]]

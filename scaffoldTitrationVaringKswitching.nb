@@ -10,19 +10,20 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     68573,       1581]
-NotebookOptionsPosition[     68004,       1557]
-NotebookOutlinePosition[     68359,       1573]
-CellTagsIndexPosition[     68316,       1570]
+NotebookDataLength[     71564,       1645]
+NotebookOptionsPosition[     70823,       1617]
+NotebookOutlinePosition[     71178,       1633]
+CellTagsIndexPosition[     71135,       1630]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
 Notebook[{
 
 Cell[CellGroupData[{
-Cell["Scaffold protein titration motif: Adaptive networks", "Title",
+Cell["Scaffold protein titration motif: saturated", "Title",
  CellChangeTimes->{{3.6430002271357613`*^9, 3.6430002342704477`*^9}, {
-  3.6461247813018913`*^9, 3.646124798059675*^9}}],
+  3.6461247813018913`*^9, 3.646124798059675*^9}, {3.646137667550736*^9, 
+  3.6461376693239307`*^9}}],
 
 Cell[BoxData[{
  RowBox[{
@@ -589,7 +590,7 @@ Cell[BoxData[
       "points", ",", "iPar", ",", "num", ",", "usToAdPars", ",", "maxPars", 
        ",", "transPars"}], "}"}], ",", "\[IndentingNewLine]", 
      RowBox[{
-      RowBox[{"points", "=", "0"}], ";", "\[IndentingNewLine]", 
+      RowBox[{"points", "=", "10"}], ";", "\[IndentingNewLine]", 
       "\[IndentingNewLine]", 
       RowBox[{"For", "[", 
        RowBox[{
@@ -1034,7 +1035,7 @@ Cell[BoxData[
                    RowBox[{"legTxt", ",", 
                     RowBox[{"ImageSize", "\[Rule]", 
                     RowBox[{"{", 
-                    RowBox[{"100", ",", "50"}], "}"}]}]}], "]"}], "}"}], ",", 
+                    RowBox[{"150", ",", "50"}], "}"}]}]}], "]"}], "}"}], ",", 
                  
                  RowBox[{"{", 
                   RowBox[{"Show", "[", 
@@ -1072,7 +1073,7 @@ Cell[BoxData[
       RowBox[{"points", "=", "10"}], ";", "\[IndentingNewLine]", 
       RowBox[{"For", "[", 
        RowBox[{
-        RowBox[{"iPar", "=", "4"}], ",", 
+        RowBox[{"iPar", "=", "1"}], ",", 
         RowBox[{"iPar", "\[LessEqual]", "points"}], ",", 
         RowBox[{"iPar", "++"}], ",", "\[IndentingNewLine]", 
         RowBox[{
@@ -1512,7 +1513,7 @@ Cell[BoxData[
                    RowBox[{"legTxt", ",", 
                     RowBox[{"ImageSize", "\[Rule]", 
                     RowBox[{"{", 
-                    RowBox[{"100", ",", "50"}], "}"}]}]}], "]"}], "}"}], ",", 
+                    RowBox[{"150", ",", "50"}], "}"}]}]}], "]"}], "}"}], ",", 
                  
                  RowBox[{"{", 
                   RowBox[{"Show", "[", 
@@ -1546,12 +1547,71 @@ Cell[BoxData[
    3.64589983282318*^9, 3.64612514992883*^9, {3.646125187014167*^9, 
    3.64612535002877*^9}, 3.646125396316476*^9, {3.646125430335791*^9, 
    3.646125492519535*^9}, {3.646128900513362*^9, 3.6461289084943237`*^9}, {
-   3.646131869390991*^9, 3.6461319855403767`*^9}, 3.646132237248633*^9}],
+   3.646131869390991*^9, 3.6461319855403767`*^9}, 3.646132237248633*^9, {
+   3.646137856699683*^9, 3.6461378610228148`*^9}, {3.646137967197999*^9, 
+   3.646137988429431*^9}}],
 
 Cell[BoxData[
- RowBox[{"{", 
-  RowBox[{"2140.188633`", ",", "Null"}], "}"}]], "Output",
- CellChangeTimes->{3.64613107449291*^9}]
+ RowBox[{
+  StyleBox[
+   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Event location failed to converge to the requested \
+accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
+between \[NoBreak]\\!\\(t\\)\[NoBreak] = \
+\[NoBreak]\\!\\(162.23713568186588`\\)\[NoBreak] and \[NoBreak]\\!\\(t\\)\
+\[NoBreak] = \[NoBreak]\\!\\(162.54079056180865`\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
+\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6461375675979652`*^9, 3.64613790501993*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Event location failed to converge to the requested \
+accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
+between \[NoBreak]\\!\\(t\\)\[NoBreak] = \[NoBreak]\\!\\(39.7910070239499`\\)\
+\[NoBreak] and \[NoBreak]\\!\\(t\\)\[NoBreak] = \
+\[NoBreak]\\!\\(40.14246761230065`\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
+\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
+\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6461375675979652`*^9, 3.646137909689678*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Event location failed to converge to the requested \
+accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
+between \[NoBreak]\\!\\(t\\)\[NoBreak] = \
+\[NoBreak]\\!\\(798.2393430481955`\\)\[NoBreak] and \[NoBreak]\\!\\(t\\)\
+\[NoBreak] = \[NoBreak]\\!\\(798.5418055645977`\\)\[NoBreak]. \
+\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
+ButtonFrame->None, ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
+\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6461375675979652`*^9, 3.646137916421729*^9}],
+
+Cell[BoxData[
+ RowBox[{
+  StyleBox[
+   RowBox[{"General", "::", "stop"}], "MessageName"], 
+  RowBox[{
+  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(NDSolve \
+:: evcvmit\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during \
+this calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
+ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
+ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
+\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
+ CellChangeTimes->{3.6461375675979652`*^9, 3.646137916451933*^9}],
+
+Cell[BoxData["$Aborted"], "Output",
+ CellChangeTimes->{3.64613107449291*^9, 3.646137849347657*^9, 
+  3.646137918120071*^9}]
 }, Open  ]]
 }, Open  ]]
 },
@@ -1573,14 +1633,18 @@ CellTagsIndex->{}
 (*NotebookFileOutline
 Notebook[{
 Cell[CellGroupData[{
-Cell[580, 22, 189, 2, 92, "Title"],
-Cell[772, 26, 7556, 210, 267, "Input"],
-Cell[8331, 238, 6684, 118, 692, "Input"],
-Cell[15018, 358, 6719, 121, 692, "Input"],
-Cell[21740, 481, 2406, 70, 114, "Input"],
+Cell[580, 22, 232, 3, 92, "Title"],
+Cell[815, 27, 7556, 210, 267, "Input"],
+Cell[8374, 239, 6684, 118, 692, "Input"],
+Cell[15061, 359, 6719, 121, 692, "Input"],
+Cell[21783, 482, 2406, 70, 114, "Input"],
 Cell[CellGroupData[{
-Cell[24171, 555, 43674, 993, 2726, "Input"],
-Cell[67848, 1550, 128, 3, 28, "Output"]
+Cell[24214, 556, 43777, 995, 2726, "Input"],
+Cell[67994, 1553, 704, 13, 24, "Message"],
+Cell[68701, 1568, 702, 13, 24, "Message"],
+Cell[69406, 1583, 703, 13, 24, "Message"],
+Cell[70112, 1598, 557, 11, 24, "Message"],
+Cell[70672, 1611, 123, 2, 28, "Output"]
 }, Open  ]]
 }, Open  ]]
 }

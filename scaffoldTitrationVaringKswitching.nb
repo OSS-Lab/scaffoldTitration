@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     71564,       1645]
-NotebookOptionsPosition[     70823,       1617]
-NotebookOutlinePosition[     71178,       1633]
-CellTagsIndexPosition[     71135,       1630]
+NotebookDataLength[     68790,       1585]
+NotebookOptionsPosition[     68221,       1561]
+NotebookOutlinePosition[     68576,       1577]
+CellTagsIndexPosition[     68533,       1574]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -1552,66 +1552,10 @@ Cell[BoxData[
    3.646137988429431*^9}}],
 
 Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Event location failed to converge to the requested \
-accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
-between \[NoBreak]\\!\\(t\\)\[NoBreak] = \
-\[NoBreak]\\!\\(162.23713568186588`\\)\[NoBreak] and \[NoBreak]\\!\\(t\\)\
-\[NoBreak] = \[NoBreak]\\!\\(162.54079056180865`\\)\[NoBreak]. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
-\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6461375675979652`*^9, 3.64613790501993*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Event location failed to converge to the requested \
-accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
-between \[NoBreak]\\!\\(t\\)\[NoBreak] = \[NoBreak]\\!\\(39.7910070239499`\\)\
-\[NoBreak] and \[NoBreak]\\!\\(t\\)\[NoBreak] = \
-\[NoBreak]\\!\\(40.14246761230065`\\)\[NoBreak]. \\!\\(\\*ButtonBox[\\\"\
-\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
-\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6461375675979652`*^9, 3.646137909689678*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"NDSolve", "::", "evcvmit"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Event location failed to converge to the requested \
-accuracy or precision within \[NoBreak]\\!\\(100\\)\[NoBreak] iterations \
-between \[NoBreak]\\!\\(t\\)\[NoBreak] = \
-\[NoBreak]\\!\\(798.2393430481955`\\)\[NoBreak] and \[NoBreak]\\!\\(t\\)\
-\[NoBreak] = \[NoBreak]\\!\\(798.5418055645977`\\)\[NoBreak]. \
-\\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", ButtonStyle->\\\"Link\\\", \
-ButtonFrame->None, ButtonData:>\\\"paclet:ref/NDSolve\\\", ButtonNote -> \
-\\\"NDSolve::evcvmit\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6461375675979652`*^9, 3.646137916421729*^9}],
-
-Cell[BoxData[
- RowBox[{
-  StyleBox[
-   RowBox[{"General", "::", "stop"}], "MessageName"], 
-  RowBox[{
-  ":", " "}], "\<\"Further output of \[NoBreak]\\!\\(\\*StyleBox[\\(NDSolve \
-:: evcvmit\\), \\\"MessageName\\\"]\\)\[NoBreak] will be suppressed during \
-this calculation. \\!\\(\\*ButtonBox[\\\"\[RightSkeleton]\\\", \
-ButtonStyle->\\\"Link\\\", ButtonFrame->None, \
-ButtonData:>\\\"paclet:ref/message/General/stop\\\", ButtonNote -> \
-\\\"General::stop\\\"]\\)\"\>"}]], "Message", "MSG",
- CellChangeTimes->{3.6461375675979652`*^9, 3.646137916451933*^9}],
-
-Cell[BoxData["$Aborted"], "Output",
+ RowBox[{"{", 
+  RowBox[{"5844.412526`", ",", "Null"}], "}"}]], "Output",
  CellChangeTimes->{3.64613107449291*^9, 3.646137849347657*^9, 
-  3.646137918120071*^9}]
+  3.646137918120071*^9, 3.6461438538999577`*^9}]
 }, Open  ]]
 }, Open  ]]
 },
@@ -1640,11 +1584,7 @@ Cell[15061, 359, 6719, 121, 692, "Input"],
 Cell[21783, 482, 2406, 70, 114, "Input"],
 Cell[CellGroupData[{
 Cell[24214, 556, 43777, 995, 2726, "Input"],
-Cell[67994, 1553, 704, 13, 24, "Message"],
-Cell[68701, 1568, 702, 13, 24, "Message"],
-Cell[69406, 1583, 703, 13, 24, "Message"],
-Cell[70112, 1598, 557, 11, 24, "Message"],
-Cell[70672, 1611, 123, 2, 28, "Output"]
+Cell[67994, 1553, 199, 4, 28, "Output"]
 }, Open  ]]
 }, Open  ]]
 }

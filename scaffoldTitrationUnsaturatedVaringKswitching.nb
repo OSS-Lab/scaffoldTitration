@@ -1548,10 +1548,10 @@ Cell[BoxData[
 }, Open  ]]
 }, Open  ]]
 },
-Evaluator->"NewKern",
+Evaluator->"NewKernel",
 WindowSize->{1242, 760},
 WindowMargins->{{9, Automatic}, {1015, Automatic}},
-FrontEndVersion->"10.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 23, \
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
 2015)",
 StyleDefinitions->"Default.nb"
 ]
@@ -1568,8 +1568,8 @@ CellTagsIndex->{}
 Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 232, 3, 92, "Title"],
-Cell[815, 27, 7556, 210, 261, "Input"],
-Cell[8374, 239, 6491, 115, 567, "Input"],
+Cell[815, 27, 7556, 210, 250, "Input"],
+Cell[8374, 239, 6491, 115, 556, "Input"],
 Cell[14868, 356, 6711, 119, 618, "Input"],
 Cell[21582, 477, 2406, 70, 91, "Input"],
 Cell[CellGroupData[{

@@ -1,5 +1,7 @@
+#/home/song/bin/WolframScript -script
+
 Clear["Global`*"];
-SetDirectory[NotebookDirectory[]];
+SetDirectory["/home/song/workspace/networkMotifs/scaffoldTitration"];
 kd=10;
 des={-k[1]* x[1][t] *x[3][t]+k[2]* x[5][t]+k[3] *x[5][t]-k[7]* x[1][t]* x[7][t]+k[8]*x[8][t]+k11[t]*kd-kd*x[1][t],-k[4]* x[2][t] *x[4][t]+k[5]* x[6][t]+k[6] *x[6][t]-k[9]* x[2][t]* x[7][t]+k[10]* x[9][t],-k[1]* x[1][t] *x[3][t]+k[2] *x[5][t]+k[6]*x[6][t],
 -k[4]*x[2][t]* x[4][t]+k[3]*x[5][t]+k[5]* x[6][t],

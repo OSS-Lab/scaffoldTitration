@@ -15,7 +15,7 @@ init={totK,totP,totS,0,0,0,totT,0,0,1.*10^-4};(*init={tot[1],tot[2],tot[3],0.000
 AbsoluteTiming[
 totK=0.0001;totP=0.1;totS=1;
 stepNum=5;
-sampleSize=10000;
+sampleSize=100000;
 
 pars={};
 vars=Array[x,9];AppendTo[vars,k11];

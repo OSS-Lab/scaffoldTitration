@@ -13,9 +13,9 @@ k[9] *x[2][t] *x[7][t]-k[10] *x[9][t],0};
 init={totK,totP,totS,0,0,0,totT,0,0,1.*10^-4};(*init={tot[1],tot[2],tot[3],0.00001,0.00001,0.00001,totT,0.00001,0.00001};*)
 
 AbsoluteTiming[
-totK=0.0001;totP=0.1;totS=1;
+totK=0.0001;totP=0.1;totS=0.1;
 stepNum=5;
-sampleSize=10000;
+sampleSize=100000;
 
 pars={};
 vars=Array[x,9];AppendTo[vars,k11];
@@ -67,6 +67,6 @@ AppendTo[pars,Join[ks,{totT,totK,totP,totS,maxUs,maxAd,num,(ks[[2]]+ks[[3]])/ks[
 ListPlot[Transpose@{xT,x4},PlotRange\[Rule]{0,10}]*)
 (*Print[pars];*)
 transPars=Transpose[pars];
-Export["saturationSamplingOptimizingTModulating.csv",transPars];
-(*Export["unsaturationSamplingOptimizingTModulating.csv",transPars];*)
+(*Export["saturationSamplingOptimizingTModulating.csv",transPars];*)
+Export["unsaturationSamplingOptimizingTModulating.csv",transPars];
 Exit[];

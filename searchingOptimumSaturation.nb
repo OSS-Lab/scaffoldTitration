@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[   3162572,      52266]
-NotebookOptionsPosition[   3161358,      52221]
-NotebookOutlinePosition[   3161734,      52238]
-CellTagsIndexPosition[   3161691,      52235]
+NotebookDataLength[   3162874,      52275]
+NotebookOptionsPosition[   3161578,      52227]
+NotebookOutlinePosition[   3161958,      52244]
+CellTagsIndexPosition[   3161915,      52241]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -51029,8 +51029,8 @@ czMT13k1w4Mm62MQZAr8o939DKXqflOPPj+CwdFCgxihFFCWu4/f2MEG8Uv2
       FormBox["0.5`", TraditionalForm]}, {1, 
       FormBox["1", TraditionalForm]}}},
   TicksStyle->GrayLevel[0]]], "Output",
- CellChangeTimes->{
-  3.6472397220188217`*^9},ImageCache->GraphicsData["CompressedBitmap", "\<\
+ CellChangeTimes->{3.6472397220188217`*^9, 
+  3.64733951640073*^9},ImageCache->GraphicsData["CompressedBitmap", "\<\
 eJztfVtsZcd15RXv5eWzn+pWq9V6tKTW26Jfsh1bGkvMWFJgdXItzzgQbEaO
 JJtj2YhDK3EntBEDoTWRiQDG0DZm6B/zqwcYcwY289P+oQM0gkYPYGIGxAT8
 oRwiCROEgfjBKKGTG6Pm7Dq16qyqs+ucw3Y+eYEmm+fUY9d+19676v7qS7/7
@@ -51266,7 +51266,13 @@ pYkZs7Jm64Mom1vdb23B50LMxMxls7a60KBf22ytFumMtv/p+9DC85NVvjrU
 7G2axekwGVnZMS/lFJT2zXVKLtVhbs0n2azcJNtJFmlppmcmerNmfb/crnjw
 yzf8oHXT/weOFaQM\
 \>"]]
+}, Open  ]]
 }, Open  ]],
+
+Cell[CellGroupData[{
+
+Cell["Find the best modualting one", "Section",
+ CellChangeTimes->{{3.647339403844215*^9, 3.64733940863533*^9}}],
 
 Cell[BoxData[{
  RowBox[{
@@ -52163,12 +52169,12 @@ Cell[BoxData[
            "\[IndentingNewLine]", 
            RowBox[{"Export", "[", 
             RowBox[{
-             RowBox[{"\"\<searchedOptimum/searchingOptimumSaturation\>\"", "<>", 
+             RowBox[{"\"\<searchedOptimum1/searchingOptimumSaturation\>\"", "<>", 
               RowBox[{"ToString", "[", "iPar", "]"}], "<>", "\"\<.pdf\>\""}], 
              ",", "pLeg"}], "]"}], ";", "\[IndentingNewLine]", 
            RowBox[{"Export", "[", 
             RowBox[{
-             RowBox[{"\"\<searchedOptimum/searchingOptimumSaturation\>\"", "<>", 
+             RowBox[{"\"\<searchedOptimum1/searchingOptimumSaturation\>\"", "<>", 
               RowBox[{"ToString", "[", "iPar", "]"}], "<>", "\"\<.eps\>\""}], 
              ",", "pLeg"}], "]"}], ";"}]}], "\[IndentingNewLine]", "]"}], ",", 
         RowBox[{"{", 
@@ -52192,7 +52198,7 @@ Cell[BoxData[
    3.6472411777823*^9, 3.647241192057005*^9}, {3.64724124061933*^9, 
    3.6472412954512663`*^9}, {3.6472421643884172`*^9, 3.647242167802199*^9}, {
    3.64724224506147*^9, 3.647242248873304*^9}, {3.647242774562975*^9, 
-   3.647242777088421*^9}}],
+   3.647242777088421*^9}, {3.6473389678435087`*^9, 3.647338968768709*^9}}],
 
 Cell[BoxData[
  RowBox[{"{", 
@@ -52221,7 +52227,7 @@ Cell[BoxData[
 },
 Evaluator->"NewKernel",
 WindowSize->{996, 741},
-WindowMargins->{{50, Automatic}, {Automatic, 0}},
+WindowMargins->{{25, Automatic}, {Automatic, -1024}},
 FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
 2015)",
 StyleDefinitions->"Default.nb"
@@ -52240,32 +52246,35 @@ Notebook[{
 Cell[CellGroupData[{
 Cell[580, 22, 117, 1, 64, "Section"],
 Cell[CellGroupData[{
-Cell[722, 27, 3292, 88, 216, "Input"],
-Cell[4017, 117, 3118982, 51150, 389, 3104649, 50913, "CachedBoxData", \
+Cell[722, 27, 3292, 88, 227, "Input"],
+Cell[4017, 117, 3119003, 51150, 400, 3104649, 50913, "CachedBoxData", \
 "BoxData", "Output"]
-}, Open  ]],
-Cell[3123014, 51270, 1374, 40, 159, "Input"],
-Cell[CellGroupData[{
-Cell[3124413, 51314, 241, 7, 39, "Input"],
-Cell[3124657, 51323, 469, 9, 57, "Output"]
-}, Open  ]],
-Cell[CellGroupData[{
-Cell[3125163, 51337, 241, 7, 39, "Input"],
-Cell[3125407, 51346, 470, 9, 57, "Output"]
-}, Open  ]],
-Cell[3125892, 51358, 139, 4, 39, "Input"],
-Cell[3126034, 51364, 10539, 286, 397, "Input"],
-Cell[3136576, 51652, 161, 3, 30, "Text"],
-Cell[CellGroupData[{
-Cell[3136762, 51659, 23992, 535, 1384, "Input"],
-Cell[3160757, 52196, 128, 3, 39, "Output"]
 }, Open  ]]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[3160934, 52205, 94, 1, 64, "Section"],
+Cell[3123069, 51273, 112, 1, 64, "Section"],
+Cell[3123184, 51276, 1374, 40, 148, "Input"],
 Cell[CellGroupData[{
-Cell[3161053, 52210, 132, 2, 28, "Input"],
-Cell[3161188, 52214, 142, 3, 28, "Output"]
+Cell[3124583, 51320, 241, 7, 28, "Input"],
+Cell[3124827, 51329, 469, 9, 46, "Output"]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3125333, 51343, 241, 7, 28, "Input"],
+Cell[3125577, 51352, 470, 9, 46, "Output"]
+}, Open  ]],
+Cell[3126062, 51364, 139, 4, 28, "Input"],
+Cell[3126204, 51370, 10539, 286, 386, "Input"],
+Cell[3136746, 51658, 161, 3, 30, "Text"],
+Cell[CellGroupData[{
+Cell[3136932, 51665, 24042, 535, 1373, "Input"],
+Cell[3160977, 52202, 128, 3, 28, "Output"]
+}, Open  ]]
+}, Open  ]],
+Cell[CellGroupData[{
+Cell[3161154, 52211, 94, 1, 64, "Section"],
+Cell[CellGroupData[{
+Cell[3161273, 52216, 132, 2, 28, "Input"],
+Cell[3161408, 52220, 142, 3, 28, "Output"]
 }, Open  ]]
 }, Open  ]]
 }
